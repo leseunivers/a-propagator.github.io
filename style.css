@@ -1,6 +1,7 @@
 body {
 
     margin: 0;
+    height: 200vh;
 
 }
 
@@ -43,5 +44,22 @@ h3 {
     font-size: 1vw;
     margin-top: 45vh;
 
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h4 {
+
+    font-family: "Ajou";
+    margin-top: 20vh;
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
 
 }
