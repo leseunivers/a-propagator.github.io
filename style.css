@@ -1,0 +1,47 @@
+body {
+
+    margin: 0;
+
+}
+
+h1 {
+
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-family: "Canela";
+
+}
+
+
+h2 {
+
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-family: "Ajou";
+
+}
+
+.notion {
+    margin-top: 33vh;
+}
+
+@font-face {
+    font-family: "Ajou";
+    src: url(AjouTTF.ttf)
+
+}
+
+
+h3 {
+
+    font-family: "Ajou";
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-size: 1vw;
+    margin-top: 45vh;
+
+
+}
