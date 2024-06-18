@@ -11,6 +11,7 @@ h1 {
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela";
+    font-size: 10vw;
 
 }
 
@@ -25,8 +26,11 @@ h2 {
 }
 
 .notion {
-    margin-top: 33vh;
+
+    margin-top: 27vh;
+
 }
+
 
 @font-face {
     font-family: "Ajou";
@@ -42,7 +46,7 @@ h3 {
     justify-content: center;
     word-spacing: normal;
     font-size: 1vw;
-    margin-top: 45vh;
+    margin-top: 20vh;
 
 
 }
