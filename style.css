@@ -92,17 +92,19 @@ nav ul li a {
 .box-text {
 
     font-family: "Ajou";
-    font-size: 1.8vw;
+    font-size: 2.5vmax;
 }
 
 
 h1 {
+
+
     width: 100%;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela";
-    font-size: 3vmax;
+    font-size: 5vmax;
     bottom: 52vh;
     position: absolute;
     
@@ -138,7 +140,7 @@ h3 {
     font-family: "Ajou";
     text-align: center;
     word-spacing: normal;
-    font-size: 1vw;
+    font-size: 1.3vmax;
     position: absolute;
     bottom: 49vh;
     width: 100%;
