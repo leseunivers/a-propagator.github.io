@@ -8,26 +8,58 @@
 </head>
 <body>
 
-    <h1> A-propagator </h1>
 
-    <h2 class="notion"> 
 
-        <a href="https://www.notion.so/ajou-a-propagator/80c29ceab02340eeaef906dd9ef81871?v=ec739466fcd3483fae340c1a82111e05&pvs=4"> Notion </a>
+    <div class="container">
 
-    </h2>
+        <div class="menu_icon_box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
 
-    <h2> 
 
-        <a href="https://discord.gg/eweZAUfb">
-            Discord
-        </a> 
+        <h1> A-propagator </h1>
 
-    </h2>
+        <div class="box">
+            <nav>
+                <ul class="box-text">
+
+                    <li><a href="">Who we are</a></li>
+                    <li><a href="https://www.notion.so/ajou-a-propagator/80c29ceab02340eeaef906dd9ef81871?v=ec739466fcd3483fae340c1a82111e05&pvs=4" class="Notion">Notion</a></li>
+                    <li><a href="https://discord.gg/MjHdhjVg" class="Discord">Discord</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+
+    </div>
+
 
     <div class="bottom-container">
         <h3 class="bottom"> Ajou Univ. Department of Physics </h3>
     </div>
 
     
+
+    <script>
+        let menu_icon_box = document.querySelector(".menu_icon_box");
+        let box = document.querySelector(".box");
+
+
+
+        menu_icon_box.onclick = function() {
+            menu_icon_box.classList.toggle("active");
+            box.classList.toggle("active");
+        }
+
+        document.onclick = function(e) {
+            if (!menu_icon_box.contains(e.target) && !box.contains(e.target)) {
+                menu_icon_box.classList.remove("active");
+            box.classList.remove("active");
+            }
+        }
+    </script>
 </body>
 </html>
