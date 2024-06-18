@@ -3,6 +3,17 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Ajou";
+    src: url(AjouTTF.ttf)
+
+}
+
+@font-face {
+    font-family: "Canela2";
+    src: url(canela_bold.otf)
+}
+
 .container {
 
     width: 100%;
@@ -103,7 +114,7 @@ h1 {
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Canela", "Spectral";
+    font-family: "Canela", "Canela2";
     font-size: 5vmax;
     bottom: 52vh;
     position: absolute;
@@ -128,11 +139,6 @@ h2 {
 }
 
 
-@font-face {
-    font-family: "Ajou";
-    src: url(AjouTTF.ttf)
-
-}
 
 
 h3 {
