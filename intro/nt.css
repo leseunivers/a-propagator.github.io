@@ -115,14 +115,13 @@ nav ul li a {
 
 h1 {
 
-
     width: 100%;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Canela", "Canela2";
+    font-family: "Canela2";
     font-size: 5vmax;
-    bottom: 90vh;
+    bottom: 87vh;
     position: absolute;
     
 
