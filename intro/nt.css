@@ -14,6 +14,12 @@
     src: url(/Fonts/canela_bold.otf)
 }
 
+@font-face {
+    font-family: "Iropke";
+    src: url(/Fonts/IropkeBatangM.otf)
+}
+
+
 .box {
 
     width: fit-content;
@@ -120,8 +126,8 @@ h1 {
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
-    font-size: 5vmax;
-    bottom: 87vh;
+    font-size: 3vmax;
+    bottom: 70vh;
     position: absolute;
     
 
@@ -134,14 +140,22 @@ h2 {
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Ajou";
+    font-family: "Canela2";
     position: relative;
     align-items: center;
     font-size: 2vmax;
-    padding-top: 17vh;
+    padding-top: 35vh;
 
 }
 
+.sec {
+    padding-top: 10vh;
+}
+
+.thd {
+    padding-top: 10vh;
+    font-family: "Iropke";
+}
 
 
 .notion {
@@ -171,6 +185,3 @@ a {
     text-decoration: none;
     color: black;
 }
-
-
-
