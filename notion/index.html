@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap" rel="stylesheet">
+
+    
+    <title>Notion</title>
+</head>
+<body>
+
+    <div class="menu_icon_box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+    </div>
+
+
+    <div class="box">
+        <nav>
+            <ul class="box-text">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/intro/index.html">Who we are</a></li>
+                <li><a href="/notion/index.html" class="Notion">Notion</a></li>
+                <li><a href="https://discord.gg/MjHdhjVg" class="Discord">Discord</a></li>
+            
+            </ul>
+        </nav>
+    </div>
+    
+
+    <h1> 
+        <a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4">
+            Notion 
+        </a>
+    </h1>
+
+    <div>
+
+        <h2>
+            개인 연구 진행도와 결과 공유, 연구 협업, 소스 공유, 수업 내용 QnA 등을 위하여 개설되었다.
+        </h2>
+        
+    </div>
+
+    
+    <h2 class="founder">
+        Founded by 박시형
+    </h2>
+
+    
+
+    <script>
+        let menu_icon_box = document.querySelector(".menu_icon_box");
+        let box = document.querySelector(".box");
+
+
+
+        menu_icon_box.onclick = function() {
+            menu_icon_box.classList.toggle("active");
+            box.classList.toggle("active");
+        }
+
+        document.onclick = function(e) {
+            if (!menu_icon_box.contains(e.target) && !box.contains(e.target)) {
+                menu_icon_box.classList.remove("active");
+            box.classList.remove("active");
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
