@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     
-    <title>A-propagator</title>
+    <title> A-propagator </title>
 </head>
 <body>
 
@@ -85,18 +85,18 @@
         }
 
         document.addEventListener('scroll', function() {
-            // 문서의 전체 높이와 현재 스크롤 위치를 가져옵니다.
+           
             const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
             const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
-            // 스크롤 비율을 계산합니다. (0에서 1 사이의 값)
+            
             const scrollPercentage = scrollTop / scrollHeight;
 
-            // 배경색을 계산합니다. (흰색에서 검은색으로 변화)
+            
             const backgroundColorValue = Math.floor(scrollPercentage * 255);
             const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
 
-            // body 배경색 변경
+            
             document.body.style.backgroundColor = backgroundColor;
 
             const fontTransparency = 0.37 + (1 - 0.2) * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
