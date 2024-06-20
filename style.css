@@ -3,15 +3,26 @@
     margin: 0;
 }
 
+body {
+    margin: 0;
+    height: 200vh;
+    transition: background-color 0.2s, color 0.2s;
+}
+
 @font-face {
     font-family: "Ajou";
-    src: url(AjouTTF.ttf)
+    src: url(/Fonts/AjouTTF.ttf)
 
 }
 
 @font-face {
     font-family: "Canela2";
-    src: url(canela_bold.otf)
+    src: url(/Fonts/canela_bold.otf)
+}
+
+@font-face {
+    font-family: "Iropke";
+    src: url(/Fonts/IropkeBatangM.otf)
 }
 
 .container {
@@ -19,14 +30,33 @@
     width: 100%;
     height: 100vh;
     background-color: white;
+    background-color: transparent;
+
+    
+}
+
+
+.two {
+
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.bottom-container {
+
+    background-color: transparent; 
 
 }
+
+
 
 .box {
 
     width: fit-content;
     height: 100vh;
-    background-color: white;
+    background-color: transparent;
     position: absolute;
     text-align: left;
     z-index: 1;
@@ -49,11 +79,12 @@
     z-index: 2;
     width: fit-content;
     height: auto;
-    background-color: white;
+    background-color: transparent;
     margin: 30px;
     position: absolute;
     border-radius: 4px;
     cursor: pointer;
+
 }
 
 .line1, .line2, .line3 {
@@ -134,23 +165,34 @@ h2 {
 
 }
 
+.Qm {
+    display: flex;
+    font-family: "Canela2";
+    text-align: center;
+    font-size: 2vmax;
+    justify-content: center;
+    position: relative;
+    padding-top: 47vh;
+    transition: color 0.2s;
+}
+
 .notion {
 
     margin-top: 33vh;
 
 }
 
-
-
-
 h3 {
 
+    display: flex;
     font-family: "Ajou";
     text-align: center;
     word-spacing: normal;
     font-size: 1.3vmax;
-    position: absolute;
-    bottom: 49vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 51vh;
     width: 100%;
 
 
@@ -161,6 +203,3 @@ a {
     text-decoration: none;
     color: black;
 }
-
-
-
