@@ -12,18 +12,18 @@ body {
 
 @font-face {
     font-family: "Ajou";
-    src: url(AjouTTF.ttf)
+    src: url(/Fonts/AjouTTF.ttf)
 
 }
 
 @font-face {
     font-family: "Canela2";
-    src: url(canela_bold.otf)
+    src: url(/Fonts/canela_bold.otf)
 }
 
 @font-face {
     font-family: "Iropke";
-    src: url(IropkeBatangM.otf)
+    src: url(/Fonts/IropkeBatangM.otf)
 }
 
 
