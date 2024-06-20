@@ -118,13 +118,13 @@ nav ul li a {
 
 h1 {
 
-    padding-top: 3cqh;
-    width: 100%;
+    display: flex;
+    padding-top: 5vh;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
-    font-size: 3vmax;
+    font-size: 2vmax;
 
 } 
 
@@ -138,8 +138,8 @@ h2 {
     position: absolute;
     width: 100%;
     margin-top: 35vh;
-    letter-spacing: -2.5px;
-    font-size: 2.3vmax;
+    letter-spacing: -0.76px;
+    font-size: 1.7vmax;
     
 }
 
