@@ -32,18 +32,6 @@ body {
     background-color: white;
     background-color: transparent;
 
-    
-}
-
-.shcr {
-
-    float: right;
-    width: 63px;
-    height: 63px;
-    margin-right: 1vw;
-    padding-top: 0.7vh;
-
-    
 }
 
 .two {
@@ -52,12 +40,6 @@ body {
     background-color: transparent;
     color: white;
     
-}
-
-.bottom-container {
-
-    background-color: transparent; 
-
 }
 
 
@@ -191,6 +173,13 @@ h2 {
 
 }
 
+
+.bottom-container {
+
+    background-color: transparent; 
+
+}
+
 h3 {
 
     display: flex;
@@ -202,7 +191,6 @@ h3 {
     align-items: center;
     position: relative;
     bottom: 51vh;
-    width: 100%;
 
 }
 
@@ -211,5 +199,5 @@ a {
 
     text-decoration: none;
     color: black;
-    
+
 }
