@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    overflow: hidden;
+}
+
 @font-face {
     font-family: "Ajou";
     src: url(/Fonts/AjouTTF.ttf)
@@ -121,13 +125,14 @@ nav ul li a {
 
 h1 {
 
-    width: 100%;
-    text-align: center;
+    display: flex;
+    text-align: left;
+    padding-left: 5vw;
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
-    font-size: 3vmax;
-    bottom: 70vh;
+    font-size: 11vmin;
+    bottom: 75vh;
     position: absolute;
     
 
@@ -137,20 +142,35 @@ h1 {
 h2 {
 
     display: flex;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
-    position: relative;
+    position: absolute;
     align-items: center;
-    font-size: 2vmax;
-    padding-top: 35vh;
+    font-size: 2.3vmin;
+    padding-top: 28vh;
+    padding-left: 5.3vw;
 
+
+}
+
+.gr {
+    
+    font-size: 2.8vmin;
 }
 
 .sec {
-    padding-top: 10vh;
+    padding-top: 49vh;
+    max-width: 60vw; 
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.39;
+    text-indent: 0.7vw;
+    padding-left: 5.5vw;
+    
 }
+
 
 .thd {
     padding-top: 10vh;
@@ -184,4 +204,13 @@ h3 {
 a {
     text-decoration: none;
     color: black;
+}
+
+.logo {
+
+    opacity: 5%;
+    position: absolute;
+    bottom: -17vh;
+    right: -10vw;
+
 }
