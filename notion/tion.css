@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 body {
 
     width: 100%;
@@ -25,6 +26,7 @@ body {
     font-family: "Iropke";
     src: url(/Fonts/IropkeBatangM.otf)
 }
+
 
 
 .box {
@@ -119,30 +121,42 @@ nav ul li a {
 h1 {
 
     display: flex;
-    padding-top: 5vh;
+    padding-top: 5%;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
-    font-size: 2vmax;
-
+    font-size: 2.7vmax;
+    text-decoration: underline;
+    
 } 
 
 
 h2 {
-
+    
+    display: flex;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Iropke";
-    position: absolute;
-    width: 100%;
-    margin-top: 35vh;
-    letter-spacing: -0.76px;
-    font-size: 1.7vmax;
+    font-family: "Canela2";
+    position: relative;
+    margin-top: 23vh;
+    letter-spacing: -0.3px;
+    font-size: 2.7vmin;
     
 }
 
+.No {
+    margin-top: 3vh;
+}
+
+.it {
+    margin-top: 3vh;
+}
+
+.res {
+    margin-top: 1vh;
+}
 .link {
 
     font-size: 1.7vmax;
@@ -155,14 +169,11 @@ h2 {
 .founder {
 
     font-size: 1.2vmax;
-    bottom: 5vh;
-    font-family: "PlayWrite IS";
+    padding-top: 13vh;
+    font-family: "Playwrite IS";
     letter-spacing: -1px;
 
 }
-
-
-
 
 h3 {
 
@@ -183,6 +194,4 @@ a {
     color: black;
     
 }
-
-
 
