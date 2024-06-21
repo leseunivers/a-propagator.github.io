@@ -35,6 +35,16 @@ body {
     
 }
 
+.shcr {
+
+    float: right;
+    width: 63px;
+    height: 63px;
+    margin-right: 1vw;
+    padding-top: 0.7vh;
+
+    
+}
 
 .two {
 
@@ -142,18 +152,15 @@ nav ul li a {
 
 h1 {
 
-
     width: 100%;
     text-align: center;
-    justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
     font-size: 5vmax;
     bottom: 52vh;
-    position: absolute;
     letter-spacing: -2.7px;
+    position: absolute;
     
-
 } 
 
 
@@ -167,7 +174,7 @@ h2 {
 }
 
 .Qm {
-    
+
     display: flex;
     font-family: "Canela2";
     text-align: center;
@@ -197,11 +204,12 @@ h3 {
     bottom: 51vh;
     width: 100%;
 
-
 }
 
 
 a {
+
     text-decoration: none;
     color: black;
+    
 }
