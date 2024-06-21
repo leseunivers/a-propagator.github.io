@@ -34,6 +34,16 @@ body {
 
 }
 
+.shcr {
+
+    float: right;
+    width: 63px;
+    height: 63px;
+    margin-right: 1vw;
+    padding-top: 0.7vh;
+
+}
+
 .two {
 
     height: 100vh;
@@ -163,7 +173,7 @@ h2 {
     font-size: 2vmax;
     justify-content: center;
     position: relative;
-    padding-top: 43.7vh;
+    padding-top: 45vh;
     transition: color 0.2s;
 }
 
@@ -202,8 +212,8 @@ a {
 
 }
 
-.st {
 
+.st {
     font-size: 5vmin;
 
 }
