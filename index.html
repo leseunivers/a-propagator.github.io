@@ -14,18 +14,15 @@
 <body>
 
         <div class="container">
-            
 
             <div class="menu_icon_box">
-                
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
-                
             </div>
 
+            <img src="/Image/schr.jpg" alt="" class="shcr">
 
-            
             <div class="box">
                 <nav>
                     <ul class="box-text">
@@ -47,7 +44,6 @@
         <div class="bottom-container">
             <h3 class="bottom"> Ajou Univ. Department of Physics </h3>
         </div>
-
 
 
 
@@ -84,28 +80,23 @@
             }
         }
 
+
         document.addEventListener('scroll', function() {
-           
+            
             const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
             const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-
-            
-            const scrollPercentage = scrollTop / scrollHeight;
-
-            
+            const scrollPercentage = scrollTop / scrollHeight;         
             const backgroundColorValue = Math.floor(scrollPercentage * 255);
             const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
-
-            
-            document.body.style.backgroundColor = backgroundColor;
-
-            const fontTransparency = 0.37 + (1 - 0.2) * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
+            const fontTransparency = 0.37 + 0.8 * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
             const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
 
+            document.body.style.backgroundColor = backgroundColor;
             document.querySelectorAll('.Qm p').forEach(p => {
                 p.style.color = fontColor;
+
             });
-            
+
         });
 
     
