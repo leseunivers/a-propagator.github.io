@@ -137,6 +137,7 @@ h1 {
     bottom: 75vh;
     padding-top: 15vh;
     transition: transform 0.5s ease;
+    letter-spacing: 2px;
 
 } 
 
