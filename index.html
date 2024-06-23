@@ -21,7 +21,11 @@
                 <div class="line3"></div>
             </div>
 
-          
+            <a href="https://www.a-propagator.com">
+
+                <img src="Image/schr.jpg" class="schr">
+
+            </a>
         
 
 
@@ -83,6 +87,8 @@
             }
         }
 
+       
+
 
         document.addEventListener('scroll', function() {
             
@@ -100,10 +106,19 @@
 
             });
 
+            const schrImg = document.querySelector('.schr');
+            if (scrollTop === 0) {
+                setTimeout(() => {
+                    schrImg.classList.add('visible');
+                }, 77); 
+            } else {
+                schrImg.classList.remove('visible');
+            }
+
         });
 
+        
     
-
 
     </script>
 </body>
