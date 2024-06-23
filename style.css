@@ -49,13 +49,13 @@ body {
     height: 59px;
     margin-left: 28px;
     margin-top: 9.5px;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.077s ease-in-out;
 
 }
 
-.schr.visible {
-    opacity: 1;
+.schr.hidden {
+    opacity: 0;
 }
 
 .two {
