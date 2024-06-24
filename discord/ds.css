@@ -137,7 +137,7 @@ h1 {
     font-family: "Ceviche One";
     font-size: 20vmin;
     bottom: 75vh;
-    padding-top: 15vh;
+    padding-top: 25vh;
     transition: transform 0.5s ease;
 
 } 
@@ -149,11 +149,12 @@ h2 {
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Ceviche One";
+    font-family: "Ajou";
     position: relative;
     align-items: center;
-    font-size: 9vmin;
+    font-size: 5vmin;
     padding-top: 11vh;
+    letter-spacing: -3.9px;
     
 }
 
