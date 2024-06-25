@@ -1,20 +1,14 @@
-html {
-
-    scroll-behavior: smooth;
-
-}
-
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
 }
 
 body {
-    
-    margin: 0;
+
     height: 200vh;
     transition: background-color 0.2s, color 0.2s;
-    overflow-x: hidden;
     
 }
 
@@ -35,11 +29,12 @@ body {
 }
 
 .container {
-
-    width: 100%;
+    
+    width: 100vw;
     height: 100vh;
     background-color: white;
     background-color: transparent;
+    color: black;
 
 }
 
@@ -163,15 +158,16 @@ nav ul li a {
 
 h1 {
 
-    display: flex;
+    width: 100vw;
     text-align: center;
     word-spacing: normal;
     font-family: "Canela2";
-    font-size: 5vmax;
-    bottom: 60vh;
-    letter-spacing: -2.3px;
-    position: relative;
+    font-size: 4.3vmax;
+    letter-spacing: -0.1vw;
     justify-content: center;
+    padding-top: 32vh;
+    
+
     
 } 
 
@@ -204,11 +200,6 @@ h2 {
 }
 
 
-.bottom-container {
-
-    background-color: transparent; 
-
-}
 
 h3 {
 
@@ -216,12 +207,10 @@ h3 {
     font-family: "Ajou";
     text-align: center;
     word-spacing: normal;
-    font-size: 1.3vmax;
+    font-size: 1.1vmax;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 59.5vh;
-
+    padding-top: 1vh;
 }
 
 
