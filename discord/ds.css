@@ -226,7 +226,7 @@ a {
 
 .discord {
 
-    letter-spacing: -2px;
+    word-spacing: normal;
     padding-top: 0.1vh;
 
 }
