@@ -134,10 +134,10 @@ h1 {
     justify-content: center;
     word-spacing: normal;
     font-family: "Canela2";
-    font-size: 11vmin;
+    font-size: 5.2vmax;
     bottom: 75vh;
+    letter-spacing: -0.27vw;
     position: absolute;
-    
 
 } 
 
@@ -160,7 +160,7 @@ h2 {
 
 .gr {
     
-    font-size: 2.8vmin;
+    font-size: 1.67vmax;
 }
 
 .sec {
@@ -171,6 +171,7 @@ h2 {
     line-height: 1.39;
     text-indent: 0.7vw;
     padding-left: 5.5vw;
+    font-size: 1.3vmax;
     
 }
 
@@ -210,8 +211,8 @@ a {
 .logo {
 
     opacity: 5%;
-    position: absolute;
-    bottom: -17vh;
-    right: -10vw;
+    position: relative;
+    bottom: -5vh;
+    right: -43vw;
 
 }
