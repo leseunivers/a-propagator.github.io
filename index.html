@@ -3,70 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tion.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap" rel="stylesheet">
-
     
-    <title>A-propagator</title>
+    <title> A-propagator </title>
 </head>
 <body>
 
-    <div class="menu_icon_box">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-    </div>
+        <div class="container">
 
+            <div class="menu_icon_box">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
 
-    <div class="box">a
-        <nav>
-            <ul class="box-text">
+            <a href="https://www.a-propagator.com">
 
-                <li><a href="../">Home</a></li>
-                <li><a href="" class="Notion">Notion</a></li>
-                <li><a href="../discord/index.html" class="Discord">Discord</a></li>
-                <li><a href="../intro/index.html">Who we are</a></li>
-                <li><a href="..//contents/index.html">Contents</a></li>
-            
-            </ul>
-        </nav>
-    </div>
-    
+                <img src="/Image/schr.jpg" class="schr">
 
-    <h1> 
-        <a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4">
-            Notion 
-        </a>
-    </h1>
-
-    <div>
-
-        <h2>
-
-            
-            
-        </h2>
-
-        <h2 class="No"> Notion is an awesome notepad that can do just about anything. </h2>
+            </a>
         
-        <h2 class="it">
-            It was established to share personal research progress,
-        </h2>
 
-        <h2 class="res"> results, research collaboration, source sharing, and Q&A on class content. </h2>
+
+            <div class="box">
+                <nav>
+                    <ul class="box-text">
+                        
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/notion/index.html" class="Notion">Notion</a></li>
+                        <li><a href="/discord/index.html" class="Discord">Discord</a></li>
+                        <li><a href="/intro/index.html">Who we are</a></li>
+                        <li><a href="/contents/index.html">Contents</a></li>
+                        
+
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+
+        <h1> A-propagator </h1>
+
+        <div class="bottom-container">
+            <h3 class="bottom"> Ajou Univ. Department of Physics </h3>
+        </div>
+
+
+
+    <div class="two">
+
+        <div class="Qm">
+
+            <p class="st"> Ajou Univ. Open Academy </p>
+                
+        </div>
+        
 
     </div>
 
-    
-    <h2 class="founder">
 
-        Founded by Park si hyeong
-
-    </h2>
 
     
 
@@ -87,8 +87,47 @@
             box.classList.remove("active");
             }
         }
-    </script>
+
+       
+
+
+        document.addEventListener('scroll', function() {
+            
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercentage = scrollTop / scrollHeight;         
+            const backgroundColorValue = Math.floor(scrollPercentage * 255);
+            const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
+            const fontTransparency = 0.37 + 0.8 * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
+            const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
+
+            document.body.style.backgroundColor = backgroundColor;
+            document.querySelectorAll('.Qm p').forEach(p => {
+                p.style.color = fontColor;
+
+            });
+
+            const schrImg = document.querySelector('.schr');
+            if (scrollTop === 0) {
+                setTimeout(() => {
+                    schrImg.classList.remove('hidden');
+                }, 77); 
+            } else {
+                schrImg.classList.add('hidden');
+            }
+        });
+
+        // 초기 로드 시 이미지를 보이게 설정
+        window.onload = function() {
+            const schrImg = document.querySelector('.schr');
+            schrImg.classList.remove('hidden');
+        }
 
     
+
+        
+    
+
+    </script>
 </body>
 </html>
