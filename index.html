@@ -3,79 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ds.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
     
-    <title> A-propagator </title>
+    <title>A-propagator</title>
+
+
 </head>
 <body>
 
-        <div class="container">
-
-            <div class="menu_icon_box">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-
-            <a href="https://www.a-propagator.com">
-
-                <img src="/Image/schr.jpg" class="schr">
-
-            </a>
-        
+    <div class="menu_icon_box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+    </div>
 
 
-            <div class="box">
-                <nav>
-                    <ul class="box-text">
-                        
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/notion/index.html" class="Notion">Notion</a></li>
-                        <li><a href="/discord/index.html" class="Discord">Discord</a></li>
-                        <li><a href="/intro/index.html">Who we are</a></li>
-                        <li><a href="/contents/index.html">Contents</a></li>
-                        
+    <div class="box">
+        <nav>
+            <ul class="box-text">
 
-                    </ul>
-                </nav>
-            </div>
+                <li><a href="../">Home</a></li>
+                <li><a href="../notion/index.html" class="Notion">Notion</a></li>
+                <li><a href="" class="Discord">Discord</a></li>
+                <li><a href="../intro/index.html">Who we are</a></li>
+                <li><a href="../contents/index.html">Contents</a></li>
+                
+            </ul>
+        </nav>
+    </div>
 
-            
+    <div class="sur">
 
-            <h1> A-propagator </h1>
+        <img src="/Image/hi.jpeg" alt="" class="hi">
+
+        <h5 class="na"> Surya Namaskara </h5>
+
+    </div>
     
-            <h3 class="bottom"> Ajou Univ. Department of Physics </h3>
 
+    <h1 id="hover-text"> 
+        <a href="https://discord.gg/8htbaQDM" class="discord"> Discord </a>
+    </h1>
 
-        </div>
-    
-        
-
-
-
-        <div class="two">
-
-            <div class="Qm">
-
-                <p class="st"> Ajou Univ. Open Academy </p>
-                    
-            </div>
-            
-
-        </div>
-
-
-
-    
+    <h2 class="new"> You Only Live Once <br> 一切唯心造 <br> 시간은 흐르지 않는다 <br> 結 むす ぶ </h2>
+   
 
     <script>
         let menu_icon_box = document.querySelector(".menu_icon_box");
         let box = document.querySelector(".box");
-
 
 
         menu_icon_box.onclick = function() {
@@ -90,46 +71,27 @@
             }
         }
 
-       
 
 
-        document.addEventListener('scroll', function() {
-            
-            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrollPercentage = scrollTop / scrollHeight;         
-            const backgroundColorValue = Math.floor(scrollPercentage * 255);
-            const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
-            const fontTransparency = 0.37 + 0.8 * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
-            const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
+        const hoverText = document.getElementById('hover-text');
 
-            document.body.style.backgroundColor = backgroundColor;
-            document.querySelectorAll('.Qm p').forEach(p => {
-                p.style.color = fontColor;
 
-            });
+        hoverText.addEventListener('mouseover', () => {
+          
+        
+        });
 
-            const schrImg = document.querySelector('.schr');
-            if (scrollTop === 0) {
-                setTimeout(() => {
-                    schrImg.classList.remove('hidden');
-                }, 77); 
-            } else {
-                schrImg.classList.add('hidden');
-            }
+        hoverText.addEventListener('mouseout', () => {
+           
+        
         });
 
 
-        window.onload = function() {
-            const schrImg = document.querySelector('.schr');
-            schrImg.classList.remove('hidden');
-        }
-
-    
-
-        
-    
-
     </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6322825738967219"
+    crossorigin="anonymous"></script>
+
+    
 </body>
 </html>
