@@ -1,11 +1,13 @@
 * {
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 body {
-    overflow: hidden;
+
     transition: background-color 0.5s ease;
+    height: 100vh;
 }
 
 @font-face {
@@ -225,7 +227,8 @@ a {
 }
 
 .discord {
-
+    
+    letter-spacing: -0.17vw;
     word-spacing: normal;
     padding-top: 0.1vh;
 
@@ -240,27 +243,30 @@ h5 {
     
 }
 
+.sur {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7vh;
+
+}
+
 
 .hi {
 
     max-width: 2.1vw;
     height: auto;
     padding-top: 10vh;
+    vertical-align: middle;
 
 }
+
 
 .na {
     letter-spacing: -0.3px;
-}
-
-.sur {
-
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding-left: 43.9vw;
-    padding-top: 7vh;
-
+    vertical-align: middle;
 }
 
 .walk {
@@ -272,7 +278,7 @@ h5 {
 
 .new {
 
-    padding-top: 25vh;
+    bottom: 7vh;
     font-size: 0.87vmax;
     letter-spacing: -0.5px;
     line-height: 2;
