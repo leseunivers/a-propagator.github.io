@@ -144,22 +144,6 @@ h1 {
 
 } 
 
-
-h2 {
-
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    word-spacing: normal;
-    font-family: "Canela2";
-    position: relative;
-    align-items: center;
-    font-size: 1.7vmax;
-    padding-top: 33vh;
-    letter-spacing: -1px;
-    
-}
-
 h1:hover {
     transform: scale(1.09);
 }
@@ -276,11 +260,17 @@ h5 {
 }
 
 
-.new {
+h2 {
 
-    bottom: 7vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-family: "Canela2";
+    position: relative;
+    align-items: center;
     font-size: 0.87vmax;
-    letter-spacing: -0.5px;
-    line-height: 2;
-
+    line-height: 2;    
+    padding-top: 30vh;
 }
+
