@@ -159,8 +159,8 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 3.1vmin;
-        padding-top: 5vh;
+        font-size: 2.1vmax;
+        padding-top: 9vh;
         letter-spacing: -0.5px; 
         position: absolute; 
         text-align: center;
