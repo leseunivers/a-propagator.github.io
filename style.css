@@ -21,23 +21,6 @@ body {
     
 }
 
-@font-face {
-    font-family: "Ajou";
-    src: url(/Fonts/AjouTTF.ttf)
-
-}
-
-@font-face {
-    font-family: "Canela2";
-    src: url(/Fonts/canela_bold.otf)
-}
-
-@font-face {
-    font-family: "Iropke";
-    src: url(/Fonts/IropkeBatangM.otf)
-}
-
-
 
 
 .container {
@@ -123,21 +106,8 @@ body {
     pointer-events: visible;
 }
 
-@media (max-width: 1000px) {
-    h3 {
 
-        display: flex;
-        font-family: "Ajou";
-        text-align: center;
-        word-spacing: normal;
-        font-size: 1.3vmax;
-        justify-content: center;
-        align-items: center;
-        padding-top: 1vh;
-    }
-}
-
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     .container {
     
         height: 100vh;
@@ -189,8 +159,8 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 2.3vmax;
-        padding-top: 6vh;
+        font-size: 3.3vmin;
+        padding-top: 7vh;
         letter-spacing: -0.5px; 
         position: absolute; 
         text-align: center;
@@ -224,9 +194,6 @@ body {
 
 
 }
-
-
-
 
 
 .line1, .line2, .line3 {
@@ -362,3 +329,19 @@ a {
 
 }
 
+
+@font-face {
+    font-family: "Ajou";
+    src: url(/Fonts/AjouTTF.ttf)
+
+}
+
+@font-face {
+    font-family: "Canela2";
+    src: url(/Fonts/canela_bold.otf)
+}
+
+@font-face {
+    font-family: "Iropke";
+    src: url(/Fonts/IropkeBatangM.otf)
+}
