@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 
-    
+
 }
 
 html {
@@ -160,7 +160,7 @@ body {
 
         font-family: "Ajou";
         font-size: 3.3vmin;
-        padding-top: 7vh;
+        padding-top: 5vh;
         letter-spacing: -0.5px; 
         position: absolute; 
         text-align: center;
@@ -170,18 +170,22 @@ body {
     }
 
     nav {
-        padding-top: 100px;
+        padding-top: 10px;
     }
+
+
 
     nav ul {
         margin: 0px 20px;
         padding: 0;
     }
 
+
+
     nav ul li a {
     
         color: black;
-        padding: 10px 20px;
+        padding: 3vh 20px;
         display: inline-block;
         white-space: nowrap;
         border-radius: 8px;
@@ -215,7 +219,7 @@ body {
 }
 
 nav {
-    padding-top: 100px;
+    padding-top: 9vh;
 }
 
 nav ul {
