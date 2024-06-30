@@ -71,7 +71,7 @@ body {
     width: 47px;
     height: 49px;
     margin-right: 25px;
-    margin-top: 12.7px;
+    margin-top: 13.3px;
     opacity: 1;
     transition: opacity 0.127s ease-in-out;
     max-width: 100%;
@@ -103,7 +103,7 @@ body {
     opacity: 0;
     pointer-events: none;
     transition: 0.3s;
-    background-color: white;
+    background-color: transparent;
 
 }
 
@@ -112,6 +112,7 @@ body {
     font-family: "Ajou";
     font-size: 1.2vmax;
     letter-spacing: -0.5px; 
+    padding-top: 5vh;
     
 }
 
@@ -120,6 +121,20 @@ body {
     opacity: 1;
     left: 0px;
     pointer-events: visible;
+}
+
+@media (max-width: 1000px) {
+    h3 {
+
+        display: flex;
+        font-family: "Ajou";
+        text-align: center;
+        word-spacing: normal;
+        font-size: 1.3vmax;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1vh;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -138,12 +153,12 @@ body {
         width: fit-content;
         height: auto;
         background-color: transparent;
-        margin-right: 33px;
+        margin-left: 37px;
         margin-top: 27px;
         position: absolute;
         border-radius: 4px;
         cursor: pointer;
-        right: 0vw;
+        left: 0vw;
         max-width: 100%;
     
     }
@@ -174,13 +189,14 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 1.9vmax;
-        padding-top: 7vh;
+        font-size: 2.3vmax;
+        padding-top: 6vh;
         letter-spacing: -0.5px; 
-        position: absolute;
+        position: absolute; 
         text-align: center;
         width: 100%;
         margin: 0px;
+
     }
 
     nav {
@@ -207,8 +223,10 @@ body {
     }
 
 
-
 }
+
+
+
 
 
 .line1, .line2, .line3 {
@@ -322,10 +340,11 @@ h3 {
     font-family: "Ajou";
     text-align: center;
     word-spacing: normal;
-    font-size: 1.1vmax;
+    font-size: 1.3vmax;
     justify-content: center;
     align-items: center;
     padding-top: 1vh;
+    
 }
 
 
