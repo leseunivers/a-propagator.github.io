@@ -2,8 +2,7 @@
 
     margin: 0;
     padding: 0;
-    width: 100%;
-    box-sizing: border-box;
+
     
 }
 
@@ -13,10 +12,6 @@ html {
     width: 100%;
 }
 
-.container, .box, .two, .Qm, .schr, .box-text, .schr.hidden, .active.box, .menu_icon_box, .line1, .line2, .line3, .notion, .st {
-    max-width: 100%;
-
-}
 
 body {
 
@@ -54,13 +49,29 @@ body {
 
 }
 
+.menu_icon_box {
+
+    z-index: 2;
+    width: fit-content;
+    height: auto;
+    background-color: transparent;
+    margin-left: 37px;
+    margin-top: 27px;
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+    left: 0vw;
+    max-width: 100%;
+
+}
+
 .schr {
 
-    float: left;
-    width: 57px;
-    height: 59px;
-    margin-left: 28px;
-    margin-top: 9.5px;
+    float: right;
+    width: 47px;
+    height: 49px;
+    margin-right: 25px;
+    margin-top: 12.7px;
     opacity: 1;
     transition: opacity 0.127s ease-in-out;
     max-width: 100%;
@@ -84,13 +95,12 @@ body {
 
 .box {
 
-    width: fit-content;
     height: 100vh;
     position: absolute;
-    text-align: right;
+    text-align: left;
     z-index: 1;
+    left: 0px;
     opacity: 0;
-    right: 0px;
     pointer-events: none;
     transition: 0.3s;
     background-color: white;
@@ -102,34 +112,104 @@ body {
     font-family: "Ajou";
     font-size: 2vmin;
     letter-spacing: -0.5px; 
-    width: fit-content;
     
 }
 
 
 .active.box {
     opacity: 1;
-    right: 0px;
+    left: 0px;
     pointer-events: visible;
 }
 
+@media (max-width: 1500px) {
+    .container {
+    
+        height: 100vh;
+        background-color: white;
+        background-color: transparent;
+        color: black;
+    
+    }
 
-.menu_icon_box {
+    .menu_icon_box {
 
-    z-index: 2;
-    width: fit-content;
-    height: auto;
-    background-color: transparent;
-    margin-right: 33px;
-    margin-top: 27px;
-    position: absolute;
-    border-radius: 4px;
-    cursor: pointer;
-    right: 0vw;
-    max-width: 100%;
+        z-index: 2;
+        width: fit-content;
+        height: auto;
+        background-color: transparent;
+        margin-right: 33px;
+        margin-top: 27px;
+        position: absolute;
+        border-radius: 4px;
+        cursor: pointer;
+        right: 0vw;
+        max-width: 100%;
+    
+    }
+
+    .box {
+
+        height: 100vh;
+        position: absolute;
+        text-align: right;
+        z-index: 1;
+        right: 0px;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+        background-color: white;
+    
+    }
+
+    .active.box {
+        opacity: 1;
+        right: 0px;
+        pointer-events: visible;
+        width: 100vw;
+        height: 200vh;
+        margin: 0px;
+    }
+
+    .box-text {
+
+        font-family: "Ajou";
+        font-size: 1.9vmax;
+        padding-top: 10vh;
+        letter-spacing: -0.5px; 
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    nav {
+        padding-top: 100px;
+    }
+
+    nav ul {
+        margin: 0px 20px;
+        padding: 0;
+    }
+
+    nav ul li a {
+    
+        color: black;
+        padding: 10px 20px;
+        display: inline-block;
+        white-space: nowrap;
+        border-radius: 8px;
+        
+    }
+
+    nav ul li:hover {
+        background-color: antiquewhite;
+    }
+
 
 
 }
+
 
 .line1, .line2, .line3 {
     width: 20px;
@@ -188,7 +268,7 @@ h1 {
     font-size: 5vmax;
     letter-spacing: -0.05vw;
     justify-content: center;
-    padding-top: 37vh;
+    padding-top: 39vh;
     
 } 
 
@@ -259,7 +339,7 @@ a {
 
 .st {
     
-    font-size: 3vw;
+    font-size: 3vmax;
 
 }
 
