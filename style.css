@@ -159,7 +159,7 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 3.3vmin;
+        font-size: 3.1vmin;
         padding-top: 5vh;
         letter-spacing: -0.5px; 
         position: absolute; 
@@ -219,7 +219,7 @@ body {
 }
 
 nav {
-    padding-top: 9vh;
+    padding-top: 11vh;
 }
 
 nav ul {
