@@ -289,6 +289,9 @@ a {
     color: black;
 }
 
+.pic {
+    overflow: hidden;
+}
 .logo {
 
     opacity: 5%;
