@@ -207,7 +207,7 @@ nav ul li a {
 h1 {
 
     display: flex;
-    padding-top: 5%;
+    padding-top: 7vh;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
@@ -228,7 +228,7 @@ h2 {
     position: relative;
     margin-top: 23vh;
     letter-spacing: -0.3px;
-    font-size: 1.2vmax;
+    font-size: 2.3vmin;
     
 }
 
@@ -254,7 +254,7 @@ h2 {
 
 .founder {
 
-    font-size: 0.87vmax;
+    font-size: 1vmax;
     bottom: 7vh;
     position: absolute;
     font-family: "Playwrite IS";
