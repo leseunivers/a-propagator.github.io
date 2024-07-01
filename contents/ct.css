@@ -1,22 +1,14 @@
 * {
     padding: 0;
     margin: 0;
-}
-
-html {
-
-    overflow-y: scroll;
     overflow-x: hidden;
 }
 
-body {
 
-    width: 100%;
-
-}
 
 .one {
     height: 100vh;
+    width: 100vw;
 }
 
 
