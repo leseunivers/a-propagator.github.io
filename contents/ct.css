@@ -3,31 +3,21 @@
     margin: 0;
 }
 
+html {
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
 body {
 
     width: 100%;
+
+}
+
+.one {
     height: 100vh;
-    overflow-x: hidden;
-
 }
-
-@font-face {
-    font-family: "Ajou";
-    src: url(/Fonts/AjouTTF.ttf)
-
-}
-
-@font-face {
-    font-family: "Canela2";
-    src: url(/Fonts/canela_bold.otf)
-}
-
-@font-face {
-    font-family: "Iropke";
-    src: url(/Fonts/IropkeBatangM.otf)
-}
-
 
 
 .box {
@@ -51,6 +41,7 @@ body {
     left: 0px;
     pointer-events: visible;
 }
+
 
 .box-text {
 
@@ -78,7 +69,7 @@ body {
     
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
 
     .menu_icon_box {
 
@@ -122,28 +113,33 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 1.9vmax;
-        padding-top: 10vh;
+        font-size: 2.1vmax;
+        padding-top: 9vh;
         letter-spacing: -0.5px; 
-        position: absolute;
+        position: absolute; 
         text-align: center;
         width: 100%;
         margin: 0px;
+
     }
 
     nav {
-        padding-top: 100px;
+        padding-top: 10px;
     }
+
+
 
     nav ul {
         margin: 0px 20px;
         padding: 0;
     }
 
+
+
     nav ul li a {
     
         color: black;
-        padding: 10px 20px;
+        padding: 3vh 20px;
         display: inline-block;
         white-space: nowrap;
         border-radius: 8px;
@@ -153,7 +149,6 @@ body {
     nav ul li:hover {
         background-color: antiquewhite;
     }
-
 
 
 }
@@ -270,7 +265,7 @@ h3 {
     font-family: "Ajou";
     text-align: center;
     word-spacing: normal;
-    font-size: 1.3vmax;
+    font-size: 1.7vmax;
     position: absolute;
     bottom: 49vh;
     width: 100%;
@@ -284,4 +279,29 @@ a {
     color: black;
     
 }
+
+
+
+.two{
+    height: 100vh;
+}
+
+
+
+@font-face {
+    font-family: "Ajou";
+    src: url(/Fonts/AjouTTF.ttf)
+
+}
+
+@font-face {
+    font-family: "Canela2";
+    src: url(/Fonts/canela_bold.otf)
+}
+
+@font-face {
+    font-family: "Iropke";
+    src: url(/Fonts/IropkeBatangM.otf)
+}
+
 
