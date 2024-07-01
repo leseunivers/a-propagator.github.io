@@ -56,7 +56,7 @@ body {
     letter-spacing: -0.5px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
 
 
     .menu_icon_box {
@@ -65,12 +65,12 @@ body {
         width: fit-content;
         height: auto;
         background-color: transparent;
-        margin-right: 37px;
+        margin-left: 37px;
         margin-top: 27px;
         position: absolute;
         border-radius: 4px;
         cursor: pointer;
-        right: 0vw;
+        left: 0vw;
         max-width: 100%;
     
     }
@@ -101,28 +101,33 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 1.9vmax;
-        padding-top: 10vh;
+        font-size: 2.1vmax;
+        padding-top: 9vh;
         letter-spacing: -0.5px; 
-        position: absolute;
+        position: absolute; 
         text-align: center;
         width: 100%;
         margin: 0px;
+
     }
 
     nav {
-        padding-top: 100px;
+        padding-top: 10px;
     }
+
+
 
     nav ul {
         margin: 0px 20px;
         padding: 0;
     }
 
+
+
     nav ul li a {
     
         color: black;
-        padding: 10px 20px;
+        padding: 3vh 20px;
         display: inline-block;
         white-space: nowrap;
         border-radius: 8px;
@@ -133,6 +138,23 @@ body {
         background-color: antiquewhite;
     }
 
+    .gr {
+    
+        font-size: 3vmin;
+        line-height: 1.3;
+    }
+    
+    .sec {
+        padding-top: 47vh;
+        max-width: 60vw; 
+        margin: 0 auto;
+        text-align: left;
+        line-height: 1.39;
+        text-indent: 0.7vw;
+        padding-left: 5.5vw;
+        font-size: 2.2vmin;
+        
+    }
 
 
 }
@@ -241,18 +263,18 @@ h2 {
 
 .gr {
     
-    font-size: 1.67vmax;
+    font-size: 3vmin;
 }
 
 .sec {
-    padding-top: 45vh;
+    padding-top: 47vh;
     max-width: 60vw; 
     margin: 0 auto;
     text-align: left;
     line-height: 1.39;
     text-indent: 0.7vw;
     padding-left: 5.5vw;
-    font-size: 1.3vmax;
+    font-size: 2.2vmin;
     
 }
 
