@@ -212,7 +212,7 @@ h2 {
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Canela2";
+    font-family: "MaruBuriOTF";
     position: relative;
     margin-top: 23vh;
     letter-spacing: -0.3px;
@@ -242,8 +242,8 @@ h2 {
 
 .founder {
 
-    font-size: 1vmax;
-    bottom: 7vh;
+    font-size: 1.5vmin;
+    margin-top: 3vh;
     position: absolute;
     font-family: "Playwrite IS";
     letter-spacing: -0.7px;
@@ -273,12 +273,70 @@ a {
 }
 
 
+h5 {
+    
+    font-family: "Canela2";
+    padding-top: 10.5vh;
+    font-size: 0.9vmax;
+    letter-spacing: -1px;
+    
+}
 
-.two{
+.two {
     height: 100vh;
 }
 
+.sur {
 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+
+}
+
+
+.hi {
+
+    max-width: 2.1vw;
+    height: auto;
+    padding-top: 10vh;
+    vertical-align: middle;
+
+}
+
+
+.na {
+    letter-spacing: -0.3px;
+    vertical-align: middle;
+}
+
+.new {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-family: "Canela2";
+    position: relative;
+    align-items: center;
+    font-size: 0.87vmax;
+    line-height: 2;    
+    padding-top: 20vh;
+}
+
+.discord {
+    font-size: 3vmax;
+    font-family: "MaruBuriOTF";
+    letter-spacing: -1px;
+}
+
+.rights {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1vh;
+}
 
 @font-face {
     font-family: "Ajou";
