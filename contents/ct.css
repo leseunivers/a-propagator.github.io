@@ -385,7 +385,8 @@ h5 {
     align-items: center;
     display: flex;
     margin-top: 10vh;
-    font-size: 3vmin;
+    margin-bottom: 10px;
+    font-size: 1.7vmax;
 }
 
 @font-face {
