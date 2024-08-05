@@ -405,4 +405,8 @@ h5 {
     src: url(/Fonts/IropkeBatangM.otf)
 }
 
+@font-face {
+    font-family: "MaruBuriOTF";
+    src: url(/Fonts/MaruBuri-Regular.otf)
+}
 
