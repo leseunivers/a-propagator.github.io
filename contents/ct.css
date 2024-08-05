@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    width: 100%;
 }
 
 
@@ -157,6 +158,10 @@
         background-color: antiquewhite;
     }
 
+
+    .column {
+        font-size: 100px;
+    }
 
 }
 
@@ -340,18 +345,47 @@ h5 {
     padding-top: 20vh;
 }
 
+
 .discord {
     font-size: 3vmax;
     font-family: "MaruBuriOTF";
     letter-spacing: -1px;
 }
 
+
+.line {
+    width: 100%;
+    margin-top: -70px;
+}
+
+
+.column {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: "MaruBuriOTF";
+}
+
+.list {
+    font-size: 10vmax;
+    font-family: "MaruBuriOTF";
+}
+
+.l1 {
+    font-family: "MaruBuriOTF";
+    margin-top: 5vh;
+}
+
+
 .rights {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom: 1vh;
-    font-size: 1.3vmax;
+    margin-top: 10vh;
+    font-size: 3vmin;
 }
 
 @font-face {
