@@ -63,6 +63,14 @@
 }
 
 @media (max-width: 1200px) {
+    .container {
+    
+        height: 100vh;
+        background-color: white;
+        background-color: transparent;
+        color: black;
+    
+    }
 
     .menu_icon_box {
 
@@ -116,21 +124,6 @@
 
     }
 
-    h2 {
-    
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        word-spacing: normal;
-        font-family: "MaruBuriOTF";
-        position: relative;
-        margin-top: 23vh;
-        letter-spacing: -0.3px;
-        font-size: 11vmax;
-        
-    }
-
-    
     nav {
         padding-top: 10px;
     }
@@ -158,10 +151,6 @@
         background-color: antiquewhite;
     }
 
-
-    .column {
-        font-size: 100px;
-    }
 
 }
 
@@ -232,10 +221,10 @@ h2 {
     text-align: center;
     justify-content: center;
     word-spacing: normal;
-    font-family: "MaruBuriOTF";
+    font-family: "MaruBuriOTF-SemiBold";
     position: relative;
     margin-top: 23vh;
-    letter-spacing: -0.3px;
+    letter-spacing: -2px;
     font-size: 30vmin;
     
 }
@@ -408,5 +397,10 @@ h5 {
 @font-face {
     font-family: "MaruBuriOTF";
     src: url(/Fonts/MaruBuri-Regular.otf)
+}
+
+@font-face {
+    font-family: "MaruBuriOTF-SemiBold";
+    src: url(/Fonts/MaruBuri-SemiBold.otf)
 }
 
