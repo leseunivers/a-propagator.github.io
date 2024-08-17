@@ -29,6 +29,7 @@ body {
 
 
 
+
 .box {
 
     height: 100vh;
@@ -61,6 +62,15 @@ body {
 }
 
 @media (max-width: 1200px) {
+
+    .container {
+    
+        height: 100vh;
+        background-color: white;
+        background-color: transparent;
+        color: black;
+    
+    }
 
 
     .menu_icon_box {
