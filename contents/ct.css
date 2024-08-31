@@ -117,12 +117,12 @@
     .box-text {
 
         font-family: "Ajou";
-        font-size: 2.1vmax;
+        font-size: 1.7vmax;
         padding-top: 9vh;
         letter-spacing: -0.5px; 
         position: absolute; 
         text-align: center;
-        width: 100%;
+        width: 100% !important;
         margin: 0px;
 
     }
@@ -147,6 +147,7 @@
         display: inline-block;
         white-space: nowrap;
         border-radius: 8px;
+        padding-left: 0px !important;
         
     }
 
@@ -195,7 +196,7 @@
 }
 
 nav {
-    padding-top: 100px;
+    padding-top: 11vh;
 }
 
 nav ul {
@@ -214,6 +215,7 @@ nav ul li:hover {
 }
 
 nav ul li a {
+
     color: black;
     padding: 10px 20px;
     display: block;
@@ -242,9 +244,9 @@ h2 {
     word-spacing: normal;
     font-family: "Canela2";
     position: relative;
-    margin-top: 2.39vh;
+    margin-top: 2.5vh;
     letter-spacing: -1px;
-    font-size: 3vmax;
+    font-size: 2.3vmax !important;
     
 } 
 
