@@ -89,6 +89,7 @@ body {
     
     }
 
+
     .box {
 
         height: 100vh;
@@ -115,7 +116,7 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 2.1vmax;
+        font-size: 1.7vmax;
         padding-top: 9vh;
         letter-spacing: -0.5px; 
         position: absolute; 
@@ -203,7 +204,7 @@ body {
 
 
 nav {
-    padding-top: 100px;
+    padding-top: 11vh;
 }
 
 
@@ -226,6 +227,7 @@ nav ul li:hover {
 
 
 nav ul li a {
+    
     color: black;
     padding: 10px 20px;
     display: block;
