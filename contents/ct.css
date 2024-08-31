@@ -163,7 +163,7 @@
         justify-content: center;
         word-spacing: normal;
         font-family: "Canela2";
-        margin-top: 3vh;
+        margin-top: 3.1vh !important;
         letter-spacing: -1px;
         font-size: 3vmin;
         padding-left: 0px !important;
@@ -405,7 +405,7 @@ h5 {
     font-family: "Canela2";
     padding-top: 8px;
     margin-bottom: 10px;
-    font-size: 1.3  vmax;
+    font-size: 1.3vmax;
 }
 
 @font-face {
