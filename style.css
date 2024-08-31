@@ -32,6 +32,7 @@ body {
 
 }
 
+
 .menu_icon_box {
 
     z-index: 2;
@@ -47,6 +48,7 @@ body {
     max-width: 100%;
 
 }
+
 
 .schr {
 
@@ -108,6 +110,7 @@ body {
 
 
 @media (max-width: 1200px) {
+    
     .container {
     
         height: 100vh;
@@ -159,7 +162,7 @@ body {
     .box-text {
 
         font-family: "Ajou";
-        font-size: 2.1vmax;
+        font-size: 1.7vmax;
         padding-top: 9vh;
         letter-spacing: -0.5px; 
         position: absolute; 
@@ -201,11 +204,13 @@ body {
 
 
 .line1, .line2, .line3 {
+
     width: 20px;
     height: 2px;
     margin: 3px 2px;
     background-color: black;
     border-radius: 30px;
+    
 }
 
 .active .line1 {
@@ -349,3 +354,4 @@ a {
     font-family: "Iropke";
     src: url(/Fonts/IropkeBatangM.otf)
 }
+
