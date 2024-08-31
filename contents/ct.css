@@ -8,15 +8,17 @@
 
 
 .one {
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
+
+
 
 
 .box {
 
     width: fit-content;
-    height: 83vh;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
     position: absolute;
     text-align: left;
@@ -63,7 +65,8 @@
 }
 
 @media (max-width: 1200px) {
-    .container {
+
+    .one {
     
         height: 100vh;
         background-color: white;
@@ -151,7 +154,24 @@
         background-color: antiquewhite;
     }
 
+    
 
+    h2 {
+        text-align: center;
+        display: contents;
+        align-items: center;
+        justify-content: center;
+        word-spacing: normal;
+        font-family: "Canela2";
+        margin-top: 3vh;
+        letter-spacing: -1px;
+        font-size: 3vmin;
+        padding-left: 0px !important;
+
+    }
+
+
+    
 }
 
 .line1, .line2, .line3 {
@@ -218,16 +238,15 @@ h1 {
 h2 {
     
     display: flex;
-    text-align: center;
-    justify-content: center;
+    padding-left: 90px;
     word-spacing: normal;
-    font-family: "MaruBuriOTF-SemiBold";
+    font-family: "Canela2";
     position: relative;
-    margin-top: 27vh;
-    letter-spacing: -2px;
-    font-size: 20vmin;
+    margin-top: 2.39vh;
+    letter-spacing: -1px;
+    font-size: 3vmax;
     
-}
+} 
 
 .No {
     margin-top: 5vh;
@@ -345,8 +364,11 @@ h5 {
 
 .line {
     width: 100%;
-    margin-top: -70px;
+    margin-top: 20px;
 }
+
+
+
 
 
 .column {
@@ -355,18 +377,24 @@ h5 {
     display: flex;
     margin-top: 15px;
     margin-left: 3vw;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "MaruBuriOTF";
 }
 
 .list {
-    font-size: 5vmax;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2vmax;
     font-family: "MaruBuriOTF";
+    padding-bottom: 3.9vh;
 }
 
 .l1 {
     font-family: "MaruBuriOTF";
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 
@@ -375,9 +403,9 @@ h5 {
     align-items: center;
     display: flex;
     font-family: "Canela2";
-    margin-top: 10vh;
+    padding-top: 8px;
     margin-bottom: 10px;
-    font-size: 1vmax;
+    font-size: 1.3  vmax;
 }
 
 @font-face {
