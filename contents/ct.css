@@ -164,13 +164,17 @@
         justify-content: center;
         word-spacing: normal;
         font-family: "Canela2";
-        margin-top: 3.3vh !important;
+        margin-top: 28px !important;
         letter-spacing: -1px;
-        font-size: 3vmin;
+        font-size: 20px !important;
         padding-left: 0px !important;
 
     }
 
+    .line {
+        width: 100%;
+        margin-top: 25px !important;
+    }
 
     
 }
@@ -240,13 +244,13 @@ h1 {
 h2 {
     
     display: flex;
-    padding-left: 90px;
+    padding-left: 93px;
     word-spacing: normal;
     font-family: "Canela2";
     position: relative;
-    margin-top: 2.5vh;
+    margin-top: 23.5px;
     letter-spacing: -1px;
-    font-size: 2.3vmax !important;
+    font-size: 30px;
     
 } 
 
@@ -404,7 +408,7 @@ h5 {
     align-items: center;
     display: flex;
     font-family: "Canela2";
-    padding-top: 8px;
+    padding-top: 3.6px;
     margin-bottom: 10px;
     font-size: 1.1vmax;
 }
