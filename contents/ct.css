@@ -317,6 +317,12 @@ h5 {
     
 }
 
+
+.hana {
+
+    background-color: white;
+}
+
 .two {
     height: 100vh;
 }
@@ -403,15 +409,27 @@ h5 {
 }
 
 
+
+
+
 .rights {
     justify-content: center;
     align-items: center;
     display: flex;
     font-family: "Canela2";
-    padding-top: 3.6px;
-    margin-bottom: 10px;
+    padding-top: 2px;
+    margin-bottom: 5px;
     font-size: 1.1vmax;
 }
+
+
+.copic {
+
+    margin-bottom: -5.3px;
+
+}
+
+
 
 @font-face {
     font-family: "Ajou";
