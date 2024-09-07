@@ -213,6 +213,7 @@ nav ul li {
 }
 
 nav ul li:hover {
+
     background-color: antiquewhite;
     border-radius: 8px;
 }
@@ -378,10 +379,9 @@ h5 {
     margin-top: 20px;
 }
 
-.copic {
+.copic{
     width: 100%;
 }
-
 
 
 .column {
