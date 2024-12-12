@@ -2,7 +2,7 @@
 
     margin: 0;
     padding: 0;
-
+    overflow-x: hidden;
 
 }
 
@@ -18,6 +18,7 @@ body {
     height: 200vh;
     width: 100%;
     transition: background-color 0.2s, color 0.2s;
+    overflow-x: hidden;
     
 }
 
@@ -262,7 +263,7 @@ h1 {
     font-size: 100px;
     letter-spacing: -0.05vw;
     justify-content: center;
-    padding-top: 36vh;
+    padding-top: 33vh;
     overflow-wrap: break-word;
     
 } 
@@ -320,7 +321,7 @@ h3 {
     font-size: 10px;
     justify-content: center;
     align-items: center;
-    padding-top: 4vh;
+    padding-top: 2.7vh;
     letter-spacing: -0.5px;
 
 }
