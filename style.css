@@ -110,93 +110,21 @@ body {
 
 @media (max-width: 1200px) {
     
-    .container {
-    
-        height: 100vh;
-        background-color: white;
-        background-color: transparent;
-        color: black;
-    
-    }
 
-    .menu_icon_box {
+    h1 {
 
-        z-index: 2;
-        width: fit-content;
-        height: auto;
-        background-color: transparent;
-        margin-left: 37px;
-        margin-top: 27px;
-        position: absolute;
-        border-radius: 4px;
-        cursor: pointer;
-        left: 0vw;
-        max-width: 100%;
-    
-    }
-
-    .box {
-
-        height: 100vh;
-        position: absolute;
-        text-align: right;
-        z-index: 1;
-        right: 0px;
-        opacity: 0;
-        pointer-events: none;
-        transition: 0.3s;
-        background-color: white;
-    
-    }
-
-    .active.box {
-        opacity: 1;
-        right: 0px;
-        pointer-events: visible;
-        width: 100vw;
-        height: 200vh;
-        margin: 0px;
-    }
-
-    .box-text {
-
-        font-family: "Ajou";
-        font-size: 1.7vmax;
-        padding-top: 9vh;
-        letter-spacing: -0.5px; 
-        position: absolute; 
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-
-    }
-
-    nav {
-        padding-top: 10px;
-    }
-
-
-
-    nav ul {
-        margin: 0px 20px;
-        padding: 0;
-    }
-
-
-
-    nav ul li a {
-    
-        color: black;
-        padding: 3vh 20px;
-        display: inline-block;
-        white-space: nowrap;
-        border-radius: 8px;
         
+    width: 100vw;
+    text-align: center;
+    word-spacing: normal;
+    font-family: "Canela2";
+    font-size: 100px;
+    letter-spacing: -0.05vw;
+    justify-content: center;
+    padding-top: 27vh;
+    overflow-wrap: break-word;
     }
 
-    nav ul li:hover {
-        background-color: antiquewhite;
-    }
 
     
 }
@@ -261,8 +189,9 @@ h1 {
     font-size: 100px;
     letter-spacing: -0.05vw;
     justify-content: center;
-    padding-top: 33vh;
+    padding-top: 35vh;
     overflow-wrap: break-word;
+    font-weight: 150;
     
 } 
 
@@ -313,7 +242,7 @@ h2 {
 h3 {
 
     display: flex;
-    font-family: "Nanum Gothic";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     word-spacing: normal;
     font-size: 10px;
@@ -321,6 +250,7 @@ h3 {
     align-items: center;
     padding-top: 2.7vh;
     letter-spacing: -0.5px;
+    font-weight: 444;
 
 }
 
@@ -335,7 +265,7 @@ a {
 
 .st {
     
-    font-size: 3vmax;
+    font-size: 2vmax;
 
 }
 
