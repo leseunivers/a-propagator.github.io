@@ -263,6 +263,7 @@ h1 {
     letter-spacing: -0.05vw;
     justify-content: center;
     padding-top: 36vh;
+    overflow-wrap: break-word;
     
 } 
 
