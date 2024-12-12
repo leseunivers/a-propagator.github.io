@@ -50,6 +50,7 @@ body {
     opacity: 1;
     left: 0px;
     pointer-events: visible;
+    width: 100vw;
     
 }
 
@@ -242,11 +243,12 @@ h1 {
     padding-left: 5vw;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Canela2";
-    font-size: 5.7vmax;
-    bottom: 75vh;
-    letter-spacing: -0.27vw;
+    font-family: "Ajou";
+    font-size: 4vmax;
+    top: 12vh;
     position: absolute;
+    font-weight: 100;
+    letter-spacing: 4.44px;
 
 } 
 
@@ -257,12 +259,13 @@ h2 {
     text-align: left;
     justify-content: center;
     word-spacing: normal;
-    font-family: "Canela2";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     position: absolute;
     align-items: center;
-    font-size: 2.3vmin;
+    font-size: 2vmin;
     padding-top: 28vh;
     padding-left: 5.3vw;
+    font-weight: 30;
 
 
 }
