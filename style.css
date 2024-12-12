@@ -110,22 +110,102 @@ body {
 
 @media (max-width: 1200px) {
     
-
-    h1 {
-
-        
-    width: 100vw;
-    text-align: center;
-    word-spacing: normal;
-    font-family: "Canela2";
-    font-size: 100px;
-    letter-spacing: -0.05vw;
-    justify-content: center;
-    padding-top: 27vh;
-    overflow-wrap: break-word;
+    .container {
+    
+        height: 100vh;
+        background-color: white;
+        background-color: transparent;
+        color: black;
+    
     }
 
 
+    .menu_icon_box {
+
+        z-index: 2;
+        width: fit-content;
+        height: auto;
+        background-color: transparent;
+        margin-left: 37px;
+        margin-top: 27px;
+        position: absolute;
+        border-radius: 4px;
+        cursor: pointer;
+        left: 0vw;
+        max-width: 100%;
+    
+    }
+
+
+    .box {
+
+        height: 100vh;
+        position: absolute;
+        text-align: right;
+        z-index: 1;
+        right: 0px;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+        background-color: white;
+    
+    }
+
+    .active.box {
+        opacity: 1;
+        right: 0px;
+        pointer-events: visible;
+        width: 100vw;
+        height: 200vh;
+        margin: 0px;
+    }
+
+    .box-text {
+
+        font-family: "Ajou";
+        font-size: 1.7vmax;
+        padding-top: 9vh;
+        letter-spacing: -0.5px; 
+        position: absolute; 
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+
+
+
+    nav ul {
+        margin: 0px 20px;
+        padding: 0;
+    }
+
+
+
+    nav ul li a {
+    
+        color: black;
+        padding: 3vh 20px;
+        display: inline-block;
+        white-space: nowrap;
+        border-radius: 8px;
+        
+    }
+
+    nav ul li:hover {
+        background-color: antiquewhite;
+    }
+
+    h1 {
+
+    padding-top: 25vh;
+
+    }
+    
     
 }
 
