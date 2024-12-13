@@ -6,71 +6,81 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    
-    <title> A-propagator </title>
+    <title>ESMNCE</title>
 </head>
 <body>
+    
 
-        <div class="container">
-
-            <div class="menu_icon_box">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-
-            <a href="https://www.a-propagator.com">
-
-                <img src="/Image/schr.jpg" class="schr">
-
-            </a>
-        
+    <div class="page_1">
 
 
-            <div class="box">
-                <nav>
-                    <ul class="box-text">
-                        
-                        <li><a href="/">Home</a></li>
-                        <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4" class="Notion">Notion</a></li>
-                        <li><a href="https://discord.gg/wKcCWaQxwT" class="Discord">Discord</a></li>
-                        <li><a href="/about/">Who we are</a></li>
-                        <li><a href="/contents/">Contents</a></li>
-                        
+        <nav class="navbar">
 
-                    </ul>
-                </nav>
-            </div>
 
+            <ul class="nav-links">
+
+                <li>
+
+                    <a href="/">
+
+                        <img src="/Images/schr.jpg" class="schr">
             
+                    </a>
 
-            <h1> A-<span class="rap">p</span>r<span class="oap">o</span>p<span class="gap">a</span><span class="gap">g</span><span class="gap">a</span>t<span class="gap">o</span>r </h1>
+                </li>
+
+                <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4">Notion</a></li>
+                <li><a href="https://discord.gg/wKcCWaQxwT">Discord</a></li>
+                <li><a href="./Nav/Research/">Research</a></li>
+                <li><a href="./Nav/About/">About</a></li>
+
+            </ul>
+
+        </nav>
+
+
+
+        <div class="menu_icon_box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     
-            <h3 class="bottom"> Ajou Univ. Department of Physics </h3>
 
-
-        </div>  
-    
         
-
-
-
-        <div class="two">
-
-            <div class="Qm">
-
-                <p class="st"> Ajou Univ. Open Academy </p>
+        <div class="box">
+            <nav>
+                <ul class="box-text">
                     
-            </div>
-            
-
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4" class="Notion">Notion</a></li>
+                    <li><a href="https://discord.gg/wKcCWaQxwT" class="Discord">Discord</a></li>
+                    <li><a href="./Nav/Research/">Research</a></li>
+                    <li><a href="./Nav/About/">About</a></li>
+                    
+                </ul>
+            </nav>
         </div>
 
 
 
-    
+
+        <h1> A-<span class="rap">p</span>r<span class="oap">o</span>p<span class="gap">a</span><span class="gap">g</span><span class="gap">a</span>t<span class="gap">o</span>r </h1>
+
+        <h2 class="description"> Ajou Univ. Department of Physics </h2> 
+
+    </div>
+
+
+    <div class="page_2">
+
+        <h1 class="description_2">Ajou Univ. Open Academy </h1>
+        
+    </div>
+
+
+
+
 
     <script>
         
@@ -105,16 +115,14 @@
             const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
 
             document.body.style.backgroundColor = backgroundColor;
-            document.querySelectorAll('.Qm p').forEach(p => {
+            document.querySelectorAll('.description_2').forEach(p => {
                 p.style.color = fontColor;
 
             });
 
             const schrImg = document.querySelector('.schr');
             if (scrollTop === 0) {
-                setTimeout(() => {
-                    schrImg.classList.remove('hidden');
-                }, 77); 
+                schrImg.classList.remove('hidden');
             } else {
                 schrImg.classList.add('hidden');
             }
@@ -128,6 +136,7 @@
 
 
     </script>
-    
+
+
 </body>
 </html>
