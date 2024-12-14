@@ -195,7 +195,6 @@ h3 {
         right: 0px;
         opacity: 0;
         pointer-events: none;
-        transition: 0s;
         background-color: white;
     
     }
