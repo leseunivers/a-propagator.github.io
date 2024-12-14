@@ -67,14 +67,14 @@
 
         <h1> A-<span class="rap">p</span>r<span class="oap">o</span>p<span class="gap">a</span><span class="gap">g</span><span class="gap">a</span>t<span class="gap">o</span>r </h1>
 
-        <h2 class="description"> Ajou Univ. Department of Physics </h2> 
+        <h2 class="description"> Ajou Univ. Department of Physics </h2>
 
     </div>
 
 
     <div class="page_2">
 
-        <h1 class="description_2"> World Open Academy </h1>
+        <h1 class="description_2"> World Wide Academy </h1>
         
     </div>
 
@@ -109,7 +109,8 @@
             const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
             const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrollPercentage = scrollTop / scrollHeight;         
-            const backgroundColorValue = Math.floor(scrollPercentage * 255);
+            const effectiveScrollPercentage = Math.min(scrollPercentage / 0.9, 1);
+            const backgroundColorValue = Math.floor(effectiveScrollPercentage * 255);
             const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
             const fontTransparency = 0.37 + 0.8 * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
             const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
