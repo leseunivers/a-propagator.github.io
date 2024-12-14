@@ -95,8 +95,21 @@
             }
         }
 
-    </script>
 
+        window.addEventListener('scroll', () => {
+            const sphere = document.querySelector('.sphere');
+            const scrollY = window.scrollY;
+
+            
+            const maxScale = 2; 
+            const scale = 1 + Math.min(scrollY / 500, maxScale - 1);
+
+            sphere.style.transform = `translateX(-50%) scale(${scale})`;
+        });
+
+
+
+    </script>
 
 
 
