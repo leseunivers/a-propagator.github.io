@@ -14,6 +14,7 @@ body {
     background-color: white;
     background-color: transparent;
     color: black;
+    text-align: center;
 
 }
 
@@ -79,7 +80,7 @@ body {
 h1 {
 
     margin: 0;
-    padding-top: 392px;
+    padding-top: 250px;
     text-align: center;
     font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 23px;
@@ -126,6 +127,12 @@ h3 {
 }
 
 
+.sphere {
+    display: inline-block;
+    padding-top: 177px;
+}
+
+
 
 
 .menu_icon_box {
@@ -139,10 +146,6 @@ h3 {
 }
 
 
-.Notion_web {
-    width: 100%;
-    height: auto;
-}
 
 
 
