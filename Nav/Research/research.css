@@ -1,8 +1,8 @@
 body {
     
     margin: 0;
-    height: 100vh;
-    overflow: hidden;
+    height: 105vh;
+    overflow-x: hidden;
   
 }
 
@@ -85,6 +85,7 @@ h1 {
     font-size: 17px;
     font-weight: 100;
     letter-spacing: 8px;
+    line-height: 1.7;
 } 
 
 
@@ -128,7 +129,8 @@ h3 {
 
 .sphere {
     position: fixed;
-    transform: translate(-50%,27vh);
+    transform: translate(-50%);
+    top: 500px;
 }
 
 
@@ -155,7 +157,7 @@ h3 {
 @media (max-width: 765px) {
 
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .navbar {
@@ -318,13 +320,12 @@ h3 {
     .sphere {
         
         position: absolute;
-        transform: translate(-50%,33vh);
+        transform: translate(-50%,50vh);
         width: 777px;
         height: auto;
     }
 
-
-
+  
 }
 
 
