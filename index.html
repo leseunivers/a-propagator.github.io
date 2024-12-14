@@ -109,7 +109,7 @@
             const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
             const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrollPercentage = scrollTop / scrollHeight;         
-            const effectiveScrollPercentage = Math.min(scrollPercentage / 0.9, 1);
+            const effectiveScrollPercentage = Math.min(scrollPercentage / 0.8, 1);
             const backgroundColorValue = Math.floor(effectiveScrollPercentage * 255);
             const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
             const fontTransparency = 0.37 + 0.8 * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
