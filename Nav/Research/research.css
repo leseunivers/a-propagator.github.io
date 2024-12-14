@@ -79,11 +79,11 @@ body {
 h1 {
 
     margin: 0;
-    padding-top: 333px;
+    padding-top: 392px;
     text-align: center;
     font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 100px;
-    letter-spacing: -5px;
+    font-size: 50px;
+    letter-spacing: 8px;
 } 
 
 
@@ -140,7 +140,7 @@ h3 {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 765px) {
 
     .navbar {
 
@@ -196,7 +196,7 @@ h3 {
     .box-text {
 
         font-family: "Canela";
-        font-size: 20px;
+        font-size: 15px;
         padding-top: 150px;
         letter-spacing: -0.5px; 
         position: absolute; 
@@ -262,11 +262,11 @@ h3 {
     h1 {
 
         margin: 0;
-        padding-top: 333px;
+        padding-top: 444px;
         text-align: center;
         font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 77px;
-        letter-spacing: -5px;
+        font-size: 50px;
+        letter-spacing: 7px;
     } 
     
     
