@@ -6,6 +6,13 @@ body {
   
 }
 
+.page-wrapper {
+    height: 100%;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    -webkit-overflow-scrolling: touch; 
+}
+
 
 .page_1 {
     
@@ -128,9 +135,11 @@ h3 {
 
 
 .sphere {
+
     position: fixed;
     transform: translate(-50%);
     top: 500px;
+
 }
 
 
@@ -156,9 +165,8 @@ h3 {
 
 @media (max-width: 765px) {
 
-    body {
-        overflow: hidden;
-    }
+
+
 
     .navbar {
 
@@ -197,6 +205,7 @@ h3 {
         right: 0px;
         opacity: 0;
         pointer-events: none;
+        transition: 0s;
         background-color: white;
     
     }
@@ -319,13 +328,14 @@ h3 {
 
     .sphere {
         
-        position: absolute;
-        transform: translate(-50%,50vh);
+        position: fixed;
+        transform: translate(-50%,33vh);
         width: 777px;
-        height: auto;
+        overflow: hidden;
     }
 
-  
+
+
 }
 
 
