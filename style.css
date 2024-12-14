@@ -193,7 +193,6 @@ h2 {
         right: 0px;
         opacity: 0;
         pointer-events: none;
-        transition: 0.3s;
         background-color: white;
     
     }
