@@ -6,6 +6,10 @@ body {
   
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .page-wrapper {
     height: 100%;
     overflow-y: auto; 
@@ -166,6 +170,10 @@ h3 {
 @media (max-width: 765px) {
 
 
+    body {
+        overflow-x: hidden;
+        height: 110vh;
+    }
 
 
     .navbar {
@@ -329,7 +337,7 @@ h3 {
     .sphere {
         
         position: fixed;
-        transform: translate(-50%,33vh);
+        transform: translate(-50%);
         width: 777px;
         overflow: hidden;
     }
