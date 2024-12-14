@@ -336,9 +336,8 @@ h3 {
     .sphere {
         
         position: fixed;
-        transform: translate(-50%);
-        width: 777px;
-        overflow: hidden;
+        transform: translate(-50%, -44px);
+        width: 444px;
     }
 
 
