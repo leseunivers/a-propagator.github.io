@@ -139,9 +139,9 @@ h2 {
     font-size: 44px;
     justify-content: center;
     position: relative;
-    padding-top: 41vh;
+    padding-top: 42vh;
     transition: color 0.2s;
-    letter-spacing: 0.5px;
+    letter-spacing: -1px;
 
 }
 
@@ -321,7 +321,7 @@ h2 {
         position: relative;
         padding-top: 45vh;
         transition: color 0.2s;
-        letter-spacing: 0px;
+        letter-spacing: -1px;
     
     }
 
