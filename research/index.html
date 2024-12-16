@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="research.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="Images/global.png">
+    <title>ESMNCE</title>
+</head>
+<body>
+    
+
+    <div class="page_1">
+
+
+        <nav class="navbar">
+
+
+            <ul class="nav-links">
+
+                <li>
+
+                    <a href="/">
+
+                        <img src="/Images/schr.jpg" class="schr">
+            
+                    </a>
+
+                </li>
+
+                <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4">Notion</a></li>
+                <li><a href="https://discord.gg/wKcCWaQxwT">Discord</a></li>
+                <li><a href="">Research</a></li>
+                <li><a href="../About/">About</a></li>
+
+            </ul>
+
+        </nav>
+
+
+        <div class="menu_icon_box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    
+
+        <div class="box">
+            <nav>
+                <ul class="box-text">
+                    
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4">Notion</a></li>
+                    <li><a href="https://discord.gg/wKcCWaQxwT">Discord</a></li>
+                    <li><a href="">Research</a></li>
+                    <li><a href="../About/">About</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+
+
+
+       
+
+        <h1> Fields of study : Physics, Mathematics, Philosophy, etc. </h1>
+
+        <img src="/Images/Sphere.png" class="sphere">
+
+    
+
+
+    </div>
+
+
+
+    <script>
+        
+        let menu_icon_box = document.querySelector(".menu_icon_box");
+        let box = document.querySelector(".box");
+
+
+
+        menu_icon_box.onclick = function() {
+            menu_icon_box.classList.toggle("active");
+            box.classList.toggle("active");
+        }
+
+        document.onclick = function(e) {
+            if (!menu_icon_box.contains(e.target) && !box.contains(e.target)) {
+                menu_icon_box.classList.remove("active");
+            box.classList.remove("active");
+            }
+        }
+
+
+        window.addEventListener('scroll', () => {
+            const sphere = document.querySelector('.sphere');
+            const scrollY = window.scrollY;
+
+            
+            const maxScale = 2; 
+            const scale = 1 + Math.min(scrollY / 500, maxScale - 1);
+
+            sphere.style.transform = `translateX(-50%) scale(${scale})`;
+        });
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
