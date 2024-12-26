@@ -34,6 +34,8 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
+    font-family: "Gowun Dodum";
+    letter-spacing: -0.44px;
     
 }
 
@@ -97,7 +99,7 @@ h1 {
     font-size: 77px;
     letter-spacing: -0.05vw;
     justify-content: center;
-    padding-top: 29vh;
+    padding-top: 27.3vh;
     overflow-wrap: break-word;
     font-weight: 150;
     margin-bottom: 0;
@@ -231,7 +233,7 @@ h2 {
 
     .box-text {
 
-        font-family: "Canela";
+        font-family: "Gowun Dodum";
         font-size: 14px;
         padding-top: 133px;
         letter-spacing: -0.5px; 
@@ -405,10 +407,10 @@ h2 {
 
     .box-text {
 
-        font-family: "Canela";
-        font-size: 15px;
+        font-family: "Gowun Dodum";
+        font-size: 14px;
         padding-top: 133px;
-        letter-spacing: -0.5px; 
+        letter-spacing: -0.44px;
         position: absolute; 
         text-align: center;
         width: 100%;
