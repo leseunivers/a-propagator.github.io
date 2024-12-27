@@ -35,7 +35,8 @@ body::-webkit-scrollbar {
     align-items: center;
     border-bottom: 1px solid black;
     font-family: "Gowun Dodum";
-    letter-spacing: -0.44px;
+    letter-spacing: -0.33px;
+    font-size: 15.4px;
     
 }
 
@@ -138,7 +139,7 @@ h2 {
     display: flex;
     font-family: "Canela";
     text-align: center;
-    font-size: 44px;
+    font-size: 37px;
     justify-content: center;
     position: relative;
     padding-top: 42vh;
@@ -233,10 +234,10 @@ h2 {
 
     .box-text {
 
-        font-family: "Gowun Dodum";
+        font-family: "Canela";
         font-size: 14px;
-        padding-top: 133px;
-        letter-spacing: -0.5px; 
+        padding-top: 100px;
+        letter-spacing: -0.44px; 
         position: absolute; 
         text-align: center;
         width: 100%;
@@ -258,7 +259,7 @@ h2 {
     nav ul li a {
     
         color: black;
-        padding: 3vh 20px;
+        padding: 4vh 20px;
         display: inline-block;
         white-space: nowrap;
         border-radius: 8px;
@@ -276,7 +277,7 @@ h2 {
 
     .line1, .line2, .line3 {
 
-        width: 20px;
+        width: 17px;
         height: 2px;
         margin: 3px 2px;
         background-color: black;
@@ -407,9 +408,9 @@ h2 {
 
     .box-text {
 
-        font-family: "Gowun Dodum";
+        font-family: "Canela";
         font-size: 14px;
-        padding-top: 133px;
+        padding-top: 100px;
         letter-spacing: -0.44px;
         position: absolute; 
         text-align: center;
@@ -432,7 +433,7 @@ h2 {
     nav ul li a {
     
         color: black;
-        padding: 3vh 20px;
+        padding: 4vh 20px;
         display: inline-block;
         white-space: nowrap;
         border-radius: 8px;
