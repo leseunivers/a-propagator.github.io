@@ -13,7 +13,25 @@ body {
 
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
 
+* {
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+body {
+    
+    margin: 0;
+    height: 200vh;
+    transition: background-color 0.2s, color 0.2s;
+    overflow-x: hidden;
+
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -265,6 +283,7 @@ h2 {
         white-space: nowrap;
         border-radius: 8px;
         text-decoration: none;
+        height: 98px;
         
     }
 
@@ -306,7 +325,7 @@ h2 {
         font-size: 77px;
         letter-spacing: -0.05vw;
         justify-content: center;
-        padding-top: 23vh;
+        padding-top: 25vh;
         overflow-wrap: break-word;
         font-weight: 150;
         margin-bottom: 0;
