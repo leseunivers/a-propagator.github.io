@@ -13,25 +13,7 @@ body {
 
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
 
-* {
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-
-
-body {
-    
-    margin: 0;
-    height: 200vh;
-    transition: background-color 0.2s, color 0.2s;
-    overflow-x: hidden;
-
-}
 
 body::-webkit-scrollbar {
     display: none;
