@@ -184,9 +184,7 @@ h3 {
 
 @media (max-width: 470px) {
 
-    body {
-        overflow: hidden;
-    }
+
 
 
     .navbar {
@@ -226,7 +224,6 @@ h3 {
         right: 0px;
         opacity: 0;
         pointer-events: none;
-        transition: 0s;
         background-color: white;
     
     }
@@ -422,9 +419,9 @@ h3 {
     .box-text {
 
         font-family: "Canela";
-        font-size: 15px;
-        padding-top: 133px;
-        letter-spacing: -0.5px; 
+        font-size: 13px;
+        padding-top: 100px;
+        letter-spacing: -0.44px; 
         position: absolute; 
         text-align: center;
         width: 100%;
