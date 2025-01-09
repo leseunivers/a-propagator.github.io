@@ -43,7 +43,8 @@ body {
     border-bottom: 1px solid black;
     font-family: "Gowun Dodum";
     letter-spacing: -0.33px;
-    font-size: 15.4px;
+    font-size: 15px;
+    height: 44px;
     
 }
 
@@ -209,6 +210,7 @@ h2 {
         justify-content: space-between;
         align-items: center;
         border-bottom: 0px solid black;
+        height: 0px;
         
     }
 
