@@ -17,6 +17,25 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+* {
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+body {
+    
+    margin: 0;
+    height: 200vh;
+    transition: background-color 0.2s, color 0.2s;
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
 
 
 .page_1 {
@@ -182,120 +201,6 @@ h2 {
 
 @media (max-width: 470px) {
 
-    .navbar {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 0px solid black;
-        
-    }
-
-    .menu_icon_box {
-
-        display: block;
-        z-index: 2;
-        width: fit-content;
-        height: auto;
-        background-color: transparent;
-        margin-left: 37px;
-        margin-top: 27px;
-        position: absolute;
-        border-radius: 4px;
-        cursor: pointer;
-        left: 0vw;
-        max-width: 100%;
-    
-    }
-
-
-    .box {
-
-        display: block;
-        height: 100vh;
-        position: absolute;
-        text-align: right;
-        z-index: 1;
-        right: 0px;
-        opacity: 0;
-        pointer-events: none;
-        background-color: white;
-    
-    }
-
-    .active.box {
-        opacity: 1;
-        right: 0px;
-        pointer-events: visible;
-        width: 100vw;
-        height: 200vh;
-        margin: 0px;
-    }
-
-    .box-text {
-
-        font-family: "Canela";
-        font-size: 13px;
-        padding-top: 100px;
-        letter-spacing: -0.44px; 
-        position: absolute; 
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-
-    }
-
-    nav {
-        padding-top: 10px;
-    }
-
-
-    nav ul {
-        margin: 0px 20px;
-        padding: 0;
-    }
-
-
-    nav ul li a {
-    
-        color: black;
-        padding: 4vh 20px;
-        display: inline-block;
-        white-space: nowrap;
-        border-radius: 8px;
-        text-decoration: none;
-        height: 98px;
-        
-    }
-
-    nav ul li:hover {
-        background-color: antiquewhite;
-    }
-
-    .nav-links li {
-        display: none;
-    }
-
-    .line1, .line2, .line3 {
-
-        width: 17px;
-        height: 2px;
-        margin: 3px 2px;
-        background-color: black;
-        border-radius: 30px;
-        
-    }
-    
-    .active .line1 {
-        transform: translate(0px, 5px)rotate(45deg);
-    }
-    .active .line2 {
-        opacity: 0;
-    }
-    .active .line3 {
-        transform: translate(0px, -5px)rotate(-45deg);
-    }
-
 
 
     h1 {
@@ -347,6 +252,20 @@ h2 {
     
     }
 
+
+    .navbar {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        font-family: "Gowun Dodum";
+        letter-spacing: -0.33px;
+        font-size: 14px;
+        height: 37px;
+        
+    }
+
 }
 
 
@@ -356,119 +275,6 @@ h2 {
 
 
 @media (min-width: 471px) and (max-width: 768px) {
-
-    .navbar {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 0px solid black;
-        
-    }
-
-    .menu_icon_box {
-
-        display: block;
-        z-index: 2;
-        width: fit-content;
-        height: auto;
-        background-color: transparent;
-        margin-left: 37px;
-        margin-top: 27px;
-        position: absolute;
-        border-radius: 4px;
-        cursor: pointer;
-        left: 0vw;
-        max-width: 100%;
-    
-    }
-
-
-    .box {
-
-        display: block;
-        height: 100vh;
-        position: absolute;
-        text-align: right;
-        z-index: 1;
-        right: 0px;
-        opacity: 0;
-        pointer-events: none;
-        background-color: white;
-    
-    }
-
-    .active.box {
-        opacity: 1;
-        right: 0px;
-        pointer-events: visible;
-        width: 100vw;
-        height: 200vh;
-        margin: 0px;
-    }
-
-    .box-text {
-
-        font-family: "Canela";
-        font-size: 14px;
-        padding-top: 100px;
-        letter-spacing: -0.44px;
-        position: absolute; 
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-
-    }
-
-    nav {
-        padding-top: 10px;
-    }
-
-
-    nav ul {
-        margin: 0px 20px;
-        padding: 0;
-    }
-
-
-    nav ul li a {
-    
-        color: black;
-        padding: 4vh 20px;
-        display: inline-block;
-        white-space: nowrap;
-        border-radius: 8px;
-        text-decoration: none;
-        
-    }
-
-    nav ul li:hover {
-        background-color: antiquewhite;
-    }
-
-    .nav-links li {
-        display: none;
-    }
-
-    .line1, .line2, .line3 {
-
-        width: 20px;
-        height: 2px;
-        margin: 3px 2px;
-        background-color: black;
-        border-radius: 30px;
-        
-    }
-    
-    .active .line1 {
-        transform: translate(0px, 5px)rotate(45deg);
-    }
-    .active .line2 {
-        opacity: 0;
-    }
-    .active .line3 {
-        transform: translate(0px, -5px)rotate(-45deg);
-    }
 
 
 
@@ -529,7 +335,6 @@ h2 {
 
 
 
-
 @media (max-height: 768px)  {
 
     h1 {
@@ -555,119 +360,6 @@ h2 {
 
 
 @media (max-width: 470px) {
-
-    .navbar {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 0px solid black;
-        
-    }
-
-    .menu_icon_box {
-
-        display: block;
-        z-index: 2;
-        width: fit-content;
-        height: auto;
-        background-color: transparent;
-        margin-left: 37px;
-        margin-top: 27px;
-        position: absolute;
-        border-radius: 4px;
-        cursor: pointer;
-        left: 0vw;
-        max-width: 100%;
-    
-    }
-
-
-    .box {
-
-        display: block;
-        height: 100vh;
-        position: absolute;
-        text-align: right;
-        z-index: 1;
-        right: 0px;
-        opacity: 0;
-        pointer-events: none;
-        background-color: white;
-    
-    }
-
-    .active.box {
-        opacity: 1;
-        right: 0px;
-        pointer-events: visible;
-        width: 100vw;
-        height: 200vh;
-        margin: 0px;
-    }
-
-    .box-text {
-
-        font-family: "Canela";
-        font-size: 13px;
-        padding-top: 100px;
-        letter-spacing: -0.44px; 
-        position: absolute; 
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-
-    }
-
-    nav {
-        padding-top: 10px;
-    }
-
-
-    nav ul {
-        margin: 0px 20px;
-        padding: 0;
-    }
-
-
-    nav ul li a {
-    
-        color: black;
-        padding: 4vh 20px;
-        display: inline-block;
-        white-space: nowrap;
-        border-radius: 8px;
-        text-decoration: none;
-        
-    }
-
-    nav ul li:hover {
-        background-color: antiquewhite;
-    }
-
-    .nav-links li {
-        display: none;
-    }
-
-    .line1, .line2, .line3 {
-
-        width: 17px;
-        height: 2px;
-        margin: 3px 2px;
-        background-color: black;
-        border-radius: 30px;
-        
-    }
-    
-    .active .line1 {
-        transform: translate(0px, 5px)rotate(45deg);
-    }
-    .active .line2 {
-        opacity: 0;
-    }
-    .active .line3 {
-        transform: translate(0px, -5px)rotate(-45deg);
-    }
 
 
 
@@ -729,119 +421,6 @@ h2 {
 
 
 @media (min-width: 471px) and (max-width: 768px) {
-
-    .navbar {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 0px solid black;
-        
-    }
-
-    .menu_icon_box {
-
-        display: block;
-        z-index: 2;
-        width: fit-content;
-        height: auto;
-        background-color: transparent;
-        margin-left: 37px;
-        margin-top: 27px;
-        position: absolute;
-        border-radius: 4px;
-        cursor: pointer;
-        left: 0vw;
-        max-width: 100%;
-    
-    }
-
-
-    .box {
-
-        display: block;
-        height: 100vh;
-        position: absolute;
-        text-align: right;
-        z-index: 1;
-        right: 0px;
-        opacity: 0;
-        pointer-events: none;
-        background-color: white;
-    
-    }
-
-    .active.box {
-        opacity: 1;
-        right: 0px;
-        pointer-events: visible;
-        width: 100vw;
-        height: 200vh;
-        margin: 0px;
-    }
-
-    .box-text {
-
-        font-family: "Canela";
-        font-size: 13px;
-        padding-top: 100px;
-        letter-spacing: -0.44px;
-        position: absolute; 
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-
-    }
-
-    nav {
-        padding-top: 10px;
-    }
-
-
-    nav ul {
-        margin: 0px 20px;
-        padding: 0;
-    }
-
-
-    nav ul li a {
-    
-        color: black;
-        padding: 4vh 20px;
-        display: inline-block;
-        white-space: nowrap;
-        border-radius: 8px;
-        text-decoration: none;
-        
-    }
-
-    nav ul li:hover {
-        background-color: antiquewhite;
-    }
-
-    .nav-links li {
-        display: none;
-    }
-
-    .line1, .line2, .line3 {
-
-        width: 17px;
-        height: 2px;
-        margin: 3px 2px;
-        background-color: black;
-        border-radius: 30px;
-        
-    }
-    
-    .active .line1 {
-        transform: translate(0px, 5px)rotate(45deg);
-    }
-    .active .line2 {
-        opacity: 0;
-    }
-    .active .line3 {
-        transform: translate(0px, -5px)rotate(-45deg);
-    }
 
 
 
