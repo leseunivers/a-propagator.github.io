@@ -68,19 +68,22 @@
 
 
 
-        <h1> A-<span class="rap">p</span>r<span class="oap">o</span>p<span class="gap">a</span><span class="gap">g</span><span class="gap">a</span>t<span class="gap">o</span>r </h1>
+       
 
-        <h2 class="description"> Ajou Univ. Department of Physics </h2>
+
+        <textarea id="input" placeholder="Type here..."></textarea>
+    
+    
+
 
     </div>
 
 
     <div class="page_2">
 
-        <h1 class="description_2"> World Wide Academy </h1>
+        <h1 class="description_2"> ⓒ 2025 A-propagator </h1>
         
     </div>
-
 
 
 
@@ -119,6 +122,8 @@
             const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
 
             document.body.style.backgroundColor = backgroundColor;
+
+
             document.querySelectorAll('.description_2').forEach(p => {
                 p.style.color = fontColor;
 
@@ -137,6 +142,13 @@
             const schrImg = document.querySelector('.schr');
             schrImg.classList.remove('hidden');
         }
+
+
+        const input = document.getElementById('input');
+
+        input.addEventListener('input', () => {
+        display.textContent = input.value;
+        });
 
 
     </script>
