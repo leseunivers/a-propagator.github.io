@@ -139,10 +139,10 @@ h2 {
     display: flex;
     font-family: "Canela";
     text-align: center;
-    font-size: 15vw;
+    font-size: 15vh;
     justify-content: center;
     position: relative;
-    padding-top: 22vh;
+    padding-top: 150px;
     transition: color 0.2s;
     letter-spacing: -1px;
 
