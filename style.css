@@ -136,15 +136,10 @@ h2 {
 
 .description_2 {
 
-    display: flex;
-    font-family: "Canela";
-    text-align: center;
-    font-size: 15vh;
-    justify-content: center;
     position: relative;
-    padding-top: 150px;
-    transition: color 0.2s;
-    letter-spacing: -1px;
+    top: 10%;
+    text-align: center;
+
 
 }
 
@@ -335,15 +330,9 @@ h2 {
 
     .description_2 {
 
-        display: flex;
-        font-family: "Canela";
-        text-align: center; 
-        font-size: 30px;
-        justify-content: center;
         position: relative;
-        padding-top: 45vh;
-        transition: color 0.2s;
-        letter-spacing: -1px;
+        top: 10%;
+        text-align: center;
     
     }
 
@@ -420,15 +409,9 @@ h2 {
 
     .description_2 {
 
-        display: flex;
-        font-family: "Canela";
-        text-align: center;
-        font-size: 100px;
-        justify-content: center;
         position: relative;
-        padding-top: 35vh;
-        transition: color 0.2s;
-        letter-spacing: -1px;
+        top: 10%;
+        text-align: center;
     
     }
 
