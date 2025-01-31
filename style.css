@@ -137,11 +137,11 @@
     .description_2 {
 
         position: relative;
-        top: 7vh;
+        top: 12%;
         text-align: center;
         font-family: "Canela";
         font-weight: 500;
-        font-size: 4vw;
+        font-size: 60px;
 
     }
 
@@ -352,7 +352,7 @@
         .description_2 {
 
             position: relative;
-            top: 20%;
+            top: 15%;
             text-align: center;
         
         }
@@ -389,7 +389,7 @@
 
 
 
-    @media (min-width: 471px) and (max-width: 768px) {
+    @media (min-width: 471px) and (max-width: 1024px) {
 
 
 
@@ -431,26 +431,9 @@
         .description_2 {
 
             position: relative;
-            top: 11%;
+            top: 9%;
             text-align: center;
         
-        }
-
-        textarea {
-                
-            width: 100%;
-            height: 90vh;
-            padding: 10px;
-            box-sizing: border-box;
-            border: 0px solid #ccc; 
-            resize: none;
-            outline: none;
-            font-size: 27px;
-            color: black;
-            font-family: "Gowun Dodum";
-            transition: background-color 0.2s, color 0.2s;
-            background-color: transparent;
-            
         }
 
     }
@@ -466,28 +449,6 @@
 
 
 
-
-    @media (min-width: 769px) {
-
-
-        textarea {
-                
-            width: 100%;
-            height: 50vh;
-            padding: 10px;
-            box-sizing: border-box;
-            border: 0px solid #ccc; 
-            resize: none;
-            outline: none;
-            font-size: 37px;
-            color: black;
-            font-family: "Gowun Dodum";
-            transition: background-color 0.2s, color 0.2s;
-            background-color: transparent;
-            
-        }
-
-    }
 
 
 
