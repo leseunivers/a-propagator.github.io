@@ -1,517 +1,167 @@
-    * {
-        padding: 0;
-        overflow-x: hidden;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/Images/global.png">
+    <link rel="apple-touch-icon" href="/Images/global.png">
+    <title> A-propagator </title>
+</head>
+<body>
+    
 
+    <div class="page_1">
 
-    body {
-        
-        margin: 0;
-        height: 200vh;
-        transition: background-color 0.2s, color 0.2s;
-        overflow-x: hidden;
 
-    }
+        <nav class="navbar">
 
-    ::-webkit-scrollbar {
-        display: none;
-    }
 
+            <ul class="nav-links">
 
-    .page_1 {
-        
-        height: 100vh;
-        background-color: white;
-        background-color: transparent;
-        color: black;
+                <li>
 
-    }
+                    <a href="/">
 
-    .navbar {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid black;
-        font-family: "Gowun Dodum";
-        letter-spacing: -0.33px;
-        font-size: 16px;
-        height: 51px;
-        
-    }
-
-    .nav-links {
-
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        margin: 0 auto;
-        align-items: center;
-
-    }
-
-    .nav-links li {
-
-        margin: 0 15px;
-
-    }
-
-
-    .nav-links a {
-
-        text-decoration: none;
-        color: black;
-        
-    }
-
-
-
-
-    .schr {
-
-
-        width: 47px;
-        height: 47px;
-        opacity: 1;
-        display: inline-block;
-        transition: opacity 0.587s ease-in-out;
-        margin-top: 4px;
-        vertical-align: middle;
-
-    }
-
-    .schr.hidden {
-        opacity: 0;
-        transition: 0.1s ease-in-out;
-    }
-
-
-
-
-
-
-    h1 {
-
-        text-align: center;
-        word-spacing: normal;
-        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 77px;
-        letter-spacing: -0.05vw;
-        justify-content: center;
-        padding-top: 27vh;
-        overflow-wrap: break-word;
-        font-weight: 150;
-        margin-bottom: 0;
-
-    } 
-
-
-    h2 {
-
-        display: flex;
-        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-        word-spacing: normal;
-        font-size: 13px;
-        justify-content: center;
-        align-items: center;
-        letter-spacing: 0.1px;
-        font-weight: 444;
-        padding-top: 10px;
-
-    }
-
-
-
-    .page_2 {
-
-        height: 100vh;
-        background-color: transparent;
-        transition: transform 0.5s ease;
-
-    }
-
-
-    .description_2 {
-
-        position: relative;
-        top: 12%;
-        text-align: center;
-        font-family: "Gowun Dodum";
-        font-weight: 500;
-        font-size: 40px;
-        letter-spacing: -2px;
-
-    }
-
-
-
-    .menu_icon_box {
-        display: none;
-    }
-
-
-
-    .box {
-        display: none;
-    }
-
-
-
-    strong {
-
-        font-weight: bold;
-
-    }
-
-
-@media (min-width: 1025px) {
-
-
-    #clock {
-        font-size: 50px;
-        font-weight: bold;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding-top: 36vh;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-    @media (max-width: 470px) {
-
-
-        body {
-            overflow: hidden;
-        }
-
-
-        .navbar {
-
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 0px solid black;
-            height: 0px;
+                        <img src="/Images/schr.jpg" class="schr">
             
-        }
+                    </a>
 
-        .menu_icon_box {
+                </li>
 
-            display: block;
-            z-index: 2;
-            width: fit-content;
-            height: auto;
-            background-color: transparent;
-            margin-left: 37px;
-            margin-top: 27px;
-            position: absolute;
-            border-radius: 4px;
-            cursor: pointer;
-            left: 0vw;
-            max-width: 100%;
+                <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4">Notion</a></li>
+                <li><a href="https://discord.gg/wKcCWaQxwT">Discord</a></li>
+                <li><a href="./research/">Research</a></li>
+                <li><a href="./about">About</a></li>
+
+            </ul>
+
+        </nav>
+
+
+
+        <div class="menu_icon_box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    
+
         
-        }
+        <div class="box">
+            <nav>
+                <ul class="box-text">
+                    
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://www.notion.so/ajou-a-propagator/bdd42975463541a7b4cb41f9faf2f6dd?pvs=4" class="Notion">Notion</a></li>
+                    <li><a href="https://discord.gg/wKcCWaQxwT" class="Discord">Discord</a></li>
+                    <li><a href="./research/">Research</a></li>
+                    <li><a href="./about">About</a></li>
+                    
+                </ul>
+            </nav>
+        </div>  
 
 
-        .box {
 
-            display: block;
-            height: 100vh;
-            position: absolute;
-            text-align: right;
-            z-index: 1;
-            right: 0px;
-            opacity: 0;
-            pointer-events: none;
-            background-color: white;
+       
+
+        <div id="clock"></div>
+    
+    
+
+
+    </div>
+
+
+    <div class="page_2">
+
+        <h1 class="description_2"> Ajou Univ. Open Academy </h1>
         
-        }
-
-        .active.box {
-            opacity: 1;
-            right: 0px;
-            pointer-events: visible;
-            width: 100vw;
-            height: 200vh;
-            margin: 0px;
-        }
-
-        .box-text {
-
-            font-family: "Canela";
-            font-size: 13px;
-            padding-top: 100px;
-            letter-spacing: -0.44px; 
-            position: absolute; 
-            text-align: center;
-            width: 100%;
-            margin: 0px;
-
-        }
-
-        nav {
-            padding-top: 10px;
-        }
+    </div>
 
 
-        nav ul {
-            margin: 0px 20px;
-            padding: 0;
-        }
 
 
-        nav ul li a {
+    <script>
         
-            color: black;
-            padding: 4vh 20px;
-            display: inline-block;
-            white-space: nowrap;
-            border-radius: 8px;
-            text-decoration: none;
+        let menu_icon_box = document.querySelector(".menu_icon_box");
+        let box = document.querySelector(".box");
+
+
+
+        menu_icon_box.onclick = function() {
+            menu_icon_box.classList.toggle("active");
+            box.classList.toggle("active");
+        }
+
+        document.onclick = function(e) {
+            if (!menu_icon_box.contains(e.target) && !box.contains(e.target)) {
+                menu_icon_box.classList.remove("active");
+            box.classList.remove("active");
+            }
+        }
+
+       
+
+
+        document.addEventListener('scroll', function() {
             
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercentage = scrollTop / scrollHeight;         
+            const effectiveScrollPercentage = Math.min(scrollPercentage / 0.8, 1);
+            const backgroundColorValue = Math.floor(effectiveScrollPercentage * 255);
+            const backgroundColor = `rgb(${255 - backgroundColorValue}, ${255 - backgroundColorValue}, ${255 - backgroundColorValue})`;
+            const fontTransparency = 0.37 + 0.8 * (1 - Math.exp(-3 * ((scrollPercentage - 0.5))));   
+            const fontColor = `rgba(255, 255, 255, ${fontTransparency})`;
+
+            document.body.style.backgroundColor = backgroundColor;
+
+
+            document.querySelectorAll('.description_2').forEach(p => {
+                p.style.color = fontColor;
+
+            });
+
+            const schrImg = document.querySelector('.schr');
+            if (scrollTop === 0) {
+                schrImg.classList.remove('hidden');
+            } else {
+                schrImg.classList.add('hidden');
+            }
+        });
+
+
+        window.onload = function() {
+            const schrImg = document.querySelector('.schr');
+            schrImg.classList.remove('hidden');
         }
 
-        nav ul li:hover {
-            background-color: antiquewhite;
-        }
 
-        .nav-links li {
-            display: none;
-        }
 
-        .line1, .line2, .line3 {
 
-            width: 17px;
-            height: 2px;
-            margin: 3px 2px;
-            background-color: black;
-            border-radius: 30px;
-            
+
+
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById("clock").textContent = `${hours}:${minutes}:${seconds}`;
         }
         
-        .active .line1 {
-            transform: translate(0px, 5px)rotate(45deg);
-        }
-        .active .line2 {
-            opacity: 0;
-        }
-        .active .line3 {
-            transform: translate(0px, -5px)rotate(-45deg);
-        }
+        updateClock();
+        setInterval(updateClock, 1000);
 
 
+    </script>
 
 
-        h1 {
-
-            text-align: center;
-            word-spacing: normal;
-            font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 77px;
-            letter-spacing: -0.05vw;
-            justify-content: center;
-            padding-top: 24vh;
-            overflow-wrap: break-word;
-            font-weight: 150;
-            margin-bottom: 0;
-        
-        } 
-
-
-        h2 {
-
-            display: flex;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            word-spacing: normal;
-            font-size: 100px;
-            justify-content: center;
-            align-items: center;
-            letter-spacing: -0.5px;
-            font-weight: 444;
-            padding-top: 100px;
-        
-        }
-
-        .description {
-            display: none;
-        }
-
-
-
-
-        .description_2 {
-
-            position: relative;
-            top: 15%;
-            text-align: center;
-        
-        }
-
-
-
-        textarea {
-            
-            margin-top: 73px;
-            width: 100%;
-            height: 50vh;
-            font-size: 17px;
-            padding: 10px;
-            box-sizing: border-box;
-            border: 0px solid black; 
-            resize: none;
-            outline: none;
-            color: black;
-            font-family: "Gowun Dodum";
-            transition: background-color 0.2s, color 0.2s;
-            background-color: transparent;
-            
-        }
-
-
-        #clock {
-            font-size: 50px;
-            font-weight: bold;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            padding-top: 39vh;
-        }
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-    @media (min-width: 471px) and (max-width: 1024px) {
-
-
-
-        h1 {
-
-            text-align: center;
-            word-spacing: normal;
-            font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 77px;
-            letter-spacing: -0.05vw;
-            justify-content: center;
-            padding-top: 30vh;
-            overflow-wrap: break-word;
-            font-weight: 150;
-            margin-bottom: 0;
-        
-        } 
-
-
-        h2 {
-
-            display: flex;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            word-spacing: normal;
-            font-size: 100px;
-            justify-content: center;
-            align-items: center;
-            letter-spacing: -0.5px;
-            font-weight: 444;
-            padding-top: 100px;
-        
-        }
-
-        .description {
-            display: none;
-        }
-
-        .description_2 {
-
-            position: relative;
-            top: 9%;
-            text-align: center;
-        
-        }
-
-        #clock {
-        font-size: 50px;
-        font-weight: bold;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding-top: 36vh;
-    }
-
-    }
-
-
-
-
-    .page_3 {
-        height: 100vh;
-        transition: background-color 0.2s, color 0.2s;
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    @font-face {
-        font-family: "Canela";
-        src: url(/Fonts/canela_bold.otf)
-    }
-
-
-
-    @font-face {
-        font-family: "Ajou";
-        src: url(/Fonts/AjouTTF.ttf);
-    }
-
-
-
-    @font-face {
-        font-family: "SDGothic";
-        src: url(/Fonts/AppleSDGothicNeoM.ttf);
-    }
-
-
-    @font-face {
-        font-family: "SDGothicL";
-        src: url(/Fonts/AppleSDGothicNeoL.ttf);
-    }
-
-    @font-face {
-        font-family: "SDGothicB";
-        src: url(/Fonts/AppleSDGothicNeoB.ttf);
-    }
+</body>
+</html>
