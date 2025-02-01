@@ -43,7 +43,7 @@ body {
     border-bottom: 1px solid black;
     font-family: "Gowun Dodum";
     letter-spacing: -0.33px;
-    font-size: 15px;
+    font-size: 16px;
     height: 51px;
     
 }
@@ -98,21 +98,6 @@ body {
 
 
 
-h1 {
-
-    text-align: center;
-    word-spacing: normal;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    letter-spacing: -0.05vw;
-    justify-content: center;
-    padding-top: 15vh;
-    overflow-wrap: break-word;
-    font-weight: 150;
-    margin-bottom: 0;
-
-} 
-
 
 h2 {
 
@@ -120,15 +105,15 @@ h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     word-spacing: normal;
-    font-size: 13px;
+    font-size: 17px;
     justify-content: center;
     align-items: center;
     letter-spacing: -0.33px;
     font-weight: 444;
-    padding-top: 10px;
+    padding-top: 18vh;
     padding-right: 20vw;
     padding-left: 20vw;
-    line-height: 1.7;
+    line-height: 1.6;
     overflow-wrap: break-word;
 
 }
@@ -319,30 +304,6 @@ h2 {
         transform: translate(0px, -5px)rotate(-45deg);
     }
 
-
-
-
-    h1 {
-
-
-        width: 100%;
-        position: absolute;
-        display: flex;
-        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 24px;
-        letter-spacing: -1px;
-
-        padding-top: 16vh;
-        overflow-wrap: break-word;
-        font-weight: 150;
-        margin-bottom: 0;
-
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    
-    } 
-    
     
     h2 {
 
@@ -350,7 +311,7 @@ h2 {
         display: flex;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         word-spacing: normal;
-        font-size: 10px;
+        font-size: 11px;
 
         text-align: center;
         justify-content: center;
@@ -358,7 +319,7 @@ h2 {
 
         letter-spacing: -0.5px;
         font-weight: 444;
-        padding-top: 25vh;
+        padding-top: 23vh;
         padding-left: 50px;
         padding-right: 50px;
     
@@ -389,26 +350,6 @@ h2 {
         top: 57vh;
     }
 
-    h1 {
-
-
-        width: 100%;
-        position: absolute;
-        display: flex;
-        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 30px;
-        letter-spacing: -2px;
-
-        padding-top: 15vh;
-        overflow-wrap: break-word;
-        font-weight: 150;
-        margin-bottom: 0;
-
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    
-    } 
     
     
     h2 {
@@ -417,7 +358,7 @@ h2 {
         display: flex;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         word-spacing: normal;
-        font-size: 10px;
+        font-size: 17px;
 
         text-align: center;
         justify-content: center;
@@ -425,7 +366,7 @@ h2 {
 
         letter-spacing: -0.5px;
         font-weight: 444;
-        padding-top: 25vh;
+        padding-top: 18vh;
         padding-left: 100px;
         padding-right: 100px;
     
