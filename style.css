@@ -35,7 +35,7 @@
         border-bottom: 1px solid black;
         font-family: "Gowun Dodum";
         letter-spacing: -0.33px;
-        font-size: 15px;
+        font-size: 16px;
         height: 51px;
         
     }
@@ -139,9 +139,10 @@
         position: relative;
         top: 12%;
         text-align: center;
-        font-family: "Canela";
+        font-family: "Gowun Dodum";
         font-weight: 500;
-        font-size: 60px;
+        font-size: 40px;
+        letter-spacing: -2px;
 
     }
 
@@ -495,4 +496,22 @@
     @font-face {
         font-family: "Ajou";
         src: url(/Fonts/AjouTTF.ttf);
+    }
+
+
+
+    @font-face {
+        font-family: "SDGothic";
+        src: url(/Fonts/AppleSDGothicNeoM.ttf);
+    }
+
+
+    @font-face {
+        font-family: "SDGothicL";
+        src: url(/Fonts/AppleSDGothicNeoL.ttf);
+    }
+
+    @font-face {
+        font-family: "SDGothicB";
+        src: url(/Fonts/AppleSDGothicNeoB.ttf);
     }
