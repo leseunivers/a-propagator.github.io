@@ -1,170 +1,180 @@
-    * {
-        padding: 0;
-        overflow-x: hidden;
-    }
+* {
+
+    padding: 0;
+    overflow-x: hidden;
+
+}
 
 
-    body {
-        
-        margin: 0;
-        height: 200vh;
-        transition: background-color 0.2s, color 0.2s;
-        overflow-x: hidden;
+body {
+    
+    margin: 0;
+    height: 200vh;
+    transition: background-color 0.2s, color 0.2s;
+    overflow-x: hidden;
 
-    }
+}
 
-    ::-webkit-scrollbar {
-        display: none;
-    }
+::-webkit-scrollbar {
 
+    display: none;
 
-    .page_1 {
-        
-        height: 100vh;
-        background-color: white;
-        background-color: transparent;
-        color: black;
-
-    }
-
-    .navbar {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid black;
-        font-family: "Gowun Dodum";
-        letter-spacing: -0.33px;
-        font-size: 16px;
-        height: 51px;
-        
-    }
-
-    .nav-links {
-
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        margin: 0 auto;
-        align-items: center;
-
-    }
-
-    .nav-links li {
-
-        margin: 0 15px;
-
-    }
+}
 
 
-    .nav-links a {
+.page_1 {
+    
+    height: 100vh;
+    background-color: white;
+    background-color: transparent;
+    color: black;
 
-        text-decoration: none;
-        color: black;
-        
-    }
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-family: "Gowun Dodum";
+    letter-spacing: -0.33px;
+    font-size: 16px;
+    height: 51px;
+    
+}
+
+.nav-links {
+
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.nav-links li {
+
+    margin: 0 15px;
+
+}
 
 
+.nav-links a {
 
-
-    .schr {
-
-
-        width: 47px;
-        height: 47px;
-        opacity: 1;
-        display: inline-block;
-        transition: opacity 0.587s ease-in-out;
-        margin-top: 4px;
-        vertical-align: middle;
-
-    }
-
-    .schr.hidden {
-        opacity: 0;
-        transition: 0.1s ease-in-out;
-    }
+    text-decoration: none;
+    color: black;
+    
+}
 
 
 
 
+.schr {
 
 
-    h1 {
+    width: 47px;
+    height: 47px;
+    opacity: 1;
+    display: inline-block;
+    transition: opacity 0.587s ease-in-out;
+    margin-top: 4px;
+    vertical-align: middle;
 
-        text-align: center;
-        word-spacing: normal;
-        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 77px;
-        letter-spacing: -0.05vw;
-        justify-content: center;
-        padding-top: 27vh;
-        overflow-wrap: break-word;
-        font-weight: 150;
-        margin-bottom: 0;
+}
 
-    } 
+.schr.hidden {
 
+    opacity: 0;
+    transition: 0.1s ease-in-out;
 
-    h2 {
-
-        display: flex;
-        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-        word-spacing: normal;
-        font-size: 13px;
-        justify-content: center;
-        align-items: center;
-        letter-spacing: 0.1px;
-        font-weight: 444;
-        padding-top: 10px;
-
-    }
+}
 
 
 
-    .page_2 {
-
-        height: 100vh;
-        background-color: transparent;
-        transition: transform 0.5s ease;
-
-    }
-
-
-    .description_2 {
-
-        position: relative;
-        top: 14%;
-        text-align: center;
-        font-family: "Gowun Dodum";
-        font-weight: 500;
-        font-size: 30px;
-        letter-spacing: -1px;
-
-    }
 
 
 
-    .menu_icon_box {
-        display: none;
-    }
+h1 {
+
+    text-align: center;
+    word-spacing: normal;
+    font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 77px;
+    letter-spacing: -0.05vw;
+    justify-content: center;
+    padding-top: 27vh;
+    overflow-wrap: break-word;
+    font-weight: 150;
+    margin-bottom: 0;
+
+} 
+
+
+h2 {
+
+    display: flex;
+    font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    word-spacing: normal;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1px;
+    font-weight: 444;
+    padding-top: 10px;
+
+}
 
 
 
-    .box {
-        display: none;
-    }
+.page_2 {
+
+    height: 100vh;
+    background-color: transparent;
+    transition: transform 0.5s ease;
+
+}
+
+
+.description_2 {
+
+    position: relative;
+    top: 14%;
+    text-align: center;
+    font-family: "Gowun Dodum";
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: -1px;
+
+}
 
 
 
-    strong {
+.menu_icon_box {
 
-        font-weight: bold;
+    display: none;
 
-    }
+}
+
+
+
+.box {
+
+    display: none;
+
+}
+
+
+
+strong {
+
+    font-weight: bold;
+
+}
 
 
 @media (min-width: 1025px) {
@@ -177,7 +187,7 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        padding-top: 35vh;
+        padding-top: 33vh;
     }
 
 
@@ -193,325 +203,336 @@
 
 
 
-    @media (max-width: 470px) {
+@media (max-width: 470px) {
 
 
-        body {
-            overflow: hidden;
-        }
+    body {
+        overflow: hidden;
+    }
 
 
-        .navbar {
+    .navbar {
 
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 0px solid black;
-            height: 0px;
-            
-        }
-
-        .menu_icon_box {
-
-            display: block;
-            z-index: 2;
-            width: fit-content;
-            height: auto;
-            background-color: transparent;
-            margin-left: 37px;
-            margin-top: 27px;
-            position: absolute;
-            border-radius: 4px;
-            cursor: pointer;
-            left: 0vw;
-            max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0px solid black;
+        height: 0px;
         
-        }
+    }
+
+    .menu_icon_box {
+
+        display: block;
+        z-index: 2;
+        width: fit-content;
+        height: auto;
+        background-color: transparent;
+        margin-left: 37px;
+        margin-top: 27px;
+        position: absolute;
+        border-radius: 4px;
+        cursor: pointer;
+        left: 0vw;
+        max-width: 100%;
+    
+    }
 
 
-        .box {
+    .box {
 
-            display: block;
-            height: 100vh;
-            position: absolute;
-            text-align: right;
-            z-index: 1;
-            right: 0px;
-            opacity: 0;
-            pointer-events: none;
-            background-color: white;
+        display: block;
+        height: 100vh;
+        position: absolute;
+        text-align: right;
+        z-index: 1;
+        right: 0px;
+        opacity: 0;
+        pointer-events: none;
+        background-color: white;
+    
+    }
+
+    .active.box {
+
+        opacity: 1;
+        right: 0px;
+        pointer-events: visible;
+        width: 100vw;
+        height: 200vh;
+        margin: 0px;
+
+    }
+
+    .box-text {
+
+        font-family: "Canela";
+        font-size: 13px;
+        padding-top: 100px;
+        letter-spacing: -0.44px; 
+        position: absolute; 
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+
+
+    nav ul {
+
+        margin: 0px 20px;
+        padding: 0;
+
+    }
+
+
+    nav ul li a {
+    
+        color: black;
+        padding: 4vh 20px;
+        display: inline-block;
+        white-space: nowrap;
+        border-radius: 8px;
+        text-decoration: none;
         
-        }
+    }
 
-        .active.box {
-            opacity: 1;
-            right: 0px;
-            pointer-events: visible;
-            width: 100vw;
-            height: 200vh;
-            margin: 0px;
-        }
+    nav ul li:hover {
+        background-color: antiquewhite;
+    }
 
-        .box-text {
+    .nav-links li {
+        display: none;
+    }
 
-            font-family: "Canela";
-            font-size: 13px;
-            padding-top: 100px;
-            letter-spacing: -0.44px; 
-            position: absolute; 
-            text-align: center;
-            width: 100%;
-            margin: 0px;
+    .line1, .line2, .line3 {
 
-        }
-
-        nav {
-            padding-top: 10px;
-        }
-
-
-        nav ul {
-            margin: 0px 20px;
-            padding: 0;
-        }
-
-
-        nav ul li a {
+        width: 17px;
+        height: 2px;
+        margin: 3px 2px;
+        background-color: black;
+        border-radius: 30px;
         
-            color: black;
-            padding: 4vh 20px;
-            display: inline-block;
-            white-space: nowrap;
-            border-radius: 8px;
-            text-decoration: none;
-            
-        }
-
-        nav ul li:hover {
-            background-color: antiquewhite;
-        }
-
-        .nav-links li {
-            display: none;
-        }
-
-        .line1, .line2, .line3 {
-
-            width: 17px;
-            height: 2px;
-            margin: 3px 2px;
-            background-color: black;
-            border-radius: 30px;
-            
-        }
-        
-        .active .line1 {
-            transform: translate(0px, 5px)rotate(45deg);
-        }
-        .active .line2 {
-            opacity: 0;
-        }
-        .active .line3 {
-            transform: translate(0px, -5px)rotate(-45deg);
-        }
+    }
+    
+    .active .line1 {
+        transform: translate(0px, 5px)rotate(45deg);
+    }
+    .active .line2 {
+        opacity: 0;
+    }
+    .active .line3 {
+        transform: translate(0px, -5px)rotate(-45deg);
+    }
 
 
 
 
-        h1 {
+    h1 {
 
-            text-align: center;
-            word-spacing: normal;
-            font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 77px;
-            letter-spacing: -0.05vw;
-            justify-content: center;
-            padding-top: 24vh;
-            overflow-wrap: break-word;
-            font-weight: 150;
-            margin-bottom: 0;
-        
-        } 
-
-
-        h2 {
-
-            display: flex;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            word-spacing: normal;
-            font-size: 100px;
-            justify-content: center;
-            align-items: center;
-            letter-spacing: -0.5px;
-            font-weight: 444;
-            padding-top: 100px;
-        
-        }
-
-        .description {
-            display: none;
-        }
+        text-align: center;
+        word-spacing: normal;
+        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 77px;
+        letter-spacing: -0.05vw;
+        justify-content: center;
+        padding-top: 24vh;
+        overflow-wrap: break-word;
+        font-weight: 150;
+        margin-bottom: 0;
+    
+    } 
 
 
+    h2 {
 
+        display: flex;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        word-spacing: normal;
+        font-size: 100px;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: -0.5px;
+        font-weight: 444;
+        padding-top: 100px;
+    
+    }
 
-        .description_2 {
+    .description {
 
-            position: relative;
-            top: 17%;
-            text-align: center;
-        
-        }
-
-
-
-        textarea {
-            
-            margin-top: 73px;
-            width: 100%;
-            height: 50vh;
-            font-size: 17px;
-            padding: 10px;
-            box-sizing: border-box;
-            border: 0px solid black; 
-            resize: none;
-            outline: none;
-            color: black;
-            font-family: "Gowun Dodum";
-            transition: background-color 0.2s, color 0.2s;
-            background-color: transparent;
-            
-        }
-
-
-        #clock {
-            font-size: 50px;
-            font-weight: bold;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            padding-top: 37vh;
-        }
-
+        display: none;
 
     }
 
 
 
 
+    .description_2 {
+
+        position: relative;
+        top: 17%;
+        text-align: center;
+    
+    }
 
 
 
-
-
-
-    @media (min-width: 471px) and (max-width: 1024px) {
-
-
-
-        h1 {
-
-            text-align: center;
-            word-spacing: normal;
-            font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 77px;
-            letter-spacing: -0.05vw;
-            justify-content: center;
-            padding-top: 30vh;
-            overflow-wrap: break-word;
-            font-weight: 150;
-            margin-bottom: 0;
+    textarea {
         
-        } 
-
-
-        h2 {
-
-            display: flex;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            word-spacing: normal;
-            font-size: 100px;
-            justify-content: center;
-            align-items: center;
-            letter-spacing: -0.5px;
-            font-weight: 444;
-            padding-top: 100px;
+        margin-top: 73px;
+        width: 100%;
+        height: 50vh;
+        font-size: 17px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 0px solid black; 
+        resize: none;
+        outline: none;
+        color: black;
+        font-family: "Gowun Dodum";
+        transition: background-color 0.2s, color 0.2s;
+        background-color: transparent;
         
-        }
+    }
 
-        .description {
-            display: none;
-        }
 
-        .description_2 {
+    #clock {
 
-            position: relative;
-            top: 11%;
-            text-align: center;
-        
-        }
-
-        #clock {
         font-size: 50px;
         font-weight: bold;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         justify-content: center;
         align-items: center;
         display: flex;
-        padding-top: 36vh;
-    }
+        padding-top: 37vh;
 
     }
 
 
+}
 
 
-    .page_3 {
-        height: 100vh;
-        transition: background-color 0.2s, color 0.2s;
 
+
+
+
+
+
+
+
+@media (min-width: 471px) and (max-width: 1024px) {
+
+
+
+    h1 {
+
+        text-align: center;
+        word-spacing: normal;
+        font-family: "Canela", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 77px;
+        letter-spacing: -0.05vw;
+        justify-content: center;
+        padding-top: 30vh;
+        overflow-wrap: break-word;
+        font-weight: 150;
+        margin-bottom: 0;
+    
+    } 
+
+
+    h2 {
+
+        display: flex;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        word-spacing: normal;
+        font-size: 100px;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: -0.5px;
+        font-weight: 444;
+        padding-top: 100px;
+    
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    @font-face {
-        font-family: "Canela";
-        src: url(/Fonts/canela_bold.otf)
+    .description {
+        display: none;
     }
 
+    .description_2 {
 
-
-    @font-face {
-        font-family: "Ajou";
-        src: url(/Fonts/AjouTTF.ttf);
+        position: relative;
+        top: 11%;
+        text-align: center;
+    
     }
 
+    #clock {
 
-
-    @font-face {
-        font-family: "SDGothic";
-        src: url(/Fonts/AppleSDGothicNeoM.ttf);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 36vh;
+    
     }
 
+}
 
-    @font-face {
-        font-family: "SDGothicL";
-        src: url(/Fonts/AppleSDGothicNeoL.ttf);
-    }
 
-    @font-face {
-        font-family: "SDGothicB";
-        src: url(/Fonts/AppleSDGothicNeoB.ttf);
-    }
+
+
+.page_3 {
+
+    height: 100vh;
+    transition: background-color 0.2s, color 0.2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Canela";
+    src: url(/Fonts/canela_bold.otf)
+}
+
+
+
+@font-face {
+    font-family: "Ajou";
+    src: url(/Fonts/AjouTTF.ttf);
+}
+
+
+
+@font-face {
+    font-family: "SDGothic";
+    src: url(/Fonts/AppleSDGothicNeoM.ttf);
+}
+
+
+@font-face {
+    font-family: "SDGothicL";
+    src: url(/Fonts/AppleSDGothicNeoL.ttf);
+}
+
+@font-face {
+    font-family: "SDGothicB";
+    src: url(/Fonts/AppleSDGothicNeoB.ttf);
+}
